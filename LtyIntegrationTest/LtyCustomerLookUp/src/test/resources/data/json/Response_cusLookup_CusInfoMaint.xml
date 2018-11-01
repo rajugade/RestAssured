@@ -1,0 +1,8 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Body>
+      <ns0:CusResp xmlns:ns0="http://loyalty.macys.com/schemas/loyalty.customer/CusResponse/v11_0">
+         <ns1:ReturnCode xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0">0</ns1:ReturnCode>
+         <ns1:Message xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0">CUSTOMER UPDATE SUCCESSFUL</ns1:Message>
+      </ns0:CusResp>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

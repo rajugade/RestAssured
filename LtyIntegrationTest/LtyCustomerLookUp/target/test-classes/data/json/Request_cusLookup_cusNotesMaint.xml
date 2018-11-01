@@ -1,0 +1,22 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ent="http://www.macys.com/enterprise_services" xmlns:v11="http://loyalty.macys.com/schemas/loyalty.customer/CusRequest/v11_0" xmlns:v111="http://loyalty.macys.com/schemas/loyalty.customer/CusCommon/v11_0" xmlns:v112="http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0">
+   <soapenv:Header>
+      <ent:requestor_info>
+         <version>?</version>
+         <client_id>MCOM</client_id>
+         <subclient_id>Site</subclient_id>
+      </ent:requestor_info>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v11:CusNotesMaintReq>
+         <v111:CustomerIdentifier>
+            <v111:AccountType>L</v111:AccountType>
+            <v111:AccountNumber EncryptionFlag="false" EncryptionKeyVersion="11">DynamicAccountNumber</v111:AccountNumber>
+         </v111:CustomerIdentifier>
+         <v112:Division>71</v112:Division>
+         <v112:AssociateId>12345</v112:AssociateId>
+         <v112:AddedByApp>MCOM</v112:AddedByApp>
+         <v111:NotesPriority>0</v111:NotesPriority>
+         <v111:NotesText>hi</v111:NotesText>
+      </v11:CusNotesMaintReq>
+   </soapenv:Body>
+</soapenv:Envelope>

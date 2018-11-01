@@ -1,0 +1,59 @@
+{  
+   "rewardOffer":{  
+      "offerHeader":{  
+         "division":"71",
+         "programCode":"LTYMCY001",
+         "desc":"spend $100,Earn 20 points",
+         "channelEligible":"Online",
+         "effectiveDate":"2017-12-11T00:00:00.000",
+         "expirationDate":"2017-12-26T23:59:00.000",
+         "offerStatus":"DRAFT",
+         "campaignId":"LTYMCY001",
+         "campaignDescription":"spend $100,Earn 20 points",
+         "createdBy":"WBT_User"
+      },
+      "offerReward":{  
+         "eventType":"PICK YOUR DAY",
+         "offerType":"2",
+         "offerFrequency":3,
+         "tierName":[  
+            "Platinum",
+            "Gold",
+            "Silver"
+         ],
+         "tenderType":[  
+            "MCC"
+         ],
+         "priceStatus":[  
+            "Second markdown"
+         ],
+         "psc":"NA",
+         "offerRank":"3",
+         "employeeExclusion":1,
+         "fixedOfferCombinable":0,
+         "isIncremental":false,
+         "incrementalAmount":""
+      },
+      "stores":{  
+         "store":[  
+
+         ]
+      },
+      "productGroup":{  
+         "recordGroup":"1",
+         "groupItemCount":1,
+         "product":[  
+
+         ]
+      },
+      "deferredPoint":0,
+      "offerRewardDetail":{  
+         "txnSpendMin":10,
+         "txnSpendMax":"",
+         "deptSpendMin":"",
+         "deptSpendMax":"",
+         "multiplier":10,
+         "points":""
+      }
+   }
+}

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.macys.marketing.loyalty.LtyIntegrationTest.runner.TestRunnerTest" time="8.741" tests="4" errors="2" skipped="2" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="F:\Restassured\loyalty-integration-test\LtyIntegrationTest\LtyAccountLookUp"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="F:\Restassured\loyalty-integration-test\LtyIntegrationTest\LtyAccountLookUp"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\moirfan\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="F:\Restassured\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8735792854083690122.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\maven\apache-maven-3.3.9\bin;E:\QA\Python27;C:\Program Files\nodejs\;C:\Users\moirfan\AppData\Roaming\npm;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\moirfan"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="moirfan"/>
+    <property name="java.class.path" value="/E:/OSIUS/eclipse-jee-mars-2-win32-x86_64 (1)/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="F:\Restassured\loyalty-integration-test\LtyIntegrationTest\LtyAccountLookUp\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given I Create Offer for LookUp" classname="Scenario: Verify lookUp Offer" time="0.022">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[#language: en
+Feature: loyalty lookup scenarios
+TR=2018-02-12 10:20:18,889|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|Environment details : null 
+TR=2018-02-12 10:20:18,893|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|Connected environment : QAT04
+TR=2018-02-12 10:20:18,895|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|directory:QAT03
+TR=2018-02-12 10:20:18,927|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|file:db-schema.properties
+TR=2018-02-12 10:20:18,954|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|file:messaging-queue.properties
+TR=2018-02-12 10:20:19,027|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|file:soap-rest-endpoints.properties
+TR=2018-02-12 10:20:19,027|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|directory:QAT04
+TR=2018-02-12 10:20:19,053|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|file:db-schema.properties
+TR=2018-02-12 10:20:19,065|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|file:messaging-queue.properties
+TR=2018-02-12 10:20:19,088|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|file:soap-rest-endpoints.properties
+TR=2018-02-12 10:20:19,111|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|QAT03 properties {loyalty.ods.datasource.username=LYT3CBEM, logging.level.org.apache.http=INFO, logging.level.org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer=ERROR, lty.offer.producer.enabled=true, tibco.ems.ssl.username=ltyuser, loyalty.offer.controls.uri=/api/marketing/loyalty/v1/controls, tibco.ems.ssl.privatekey.password=ltyuser, loyalty.offer.activitylog.uri=/api/marketing/loyalty/v1/activitylog, rest.core.base.path=/api/, ems.client.instance.id=MCOMProdCellA.localhost.instance2, loyalty.LTYTransactionv12.address=https://ltyservicestest:10673/Loyalty/Services/Transaction/LTY_Transaction_v12, kafka.enable.secure.connection=true, tibco.ems.ssl.identity.path=../LtyCommon/src/main/resources/certs/QAT03/EMS_LTYESSNP_TEST.p12, loyalty.offertool.datasource.name=offertool, loyalty.offertoolupdate.queue.name=M.MKT.LTY.TRANSACTION.LTYAPP.ProcessTran.Req, loyalty.offer.host=http://ln001xslty0001:9080, loyalty.offertool.datasource.maxPoolSize=2, lty.offer.consumer.max.count=1, ibco.ems.ssl.password=ltyuser, loyalty.offer.consumer.enabled=true, tibco.ems.ssl.trustedencoding.path=../LtyCommon/src/main/resources/certs/QAT03/EMS_MA000XSPKI03_TEST.pem, enable.secure.ems.connection=true, tibco.ems.ssl.certificate.path=../LtyCommon/src/main/resources/certs/QAT03/EMS_MA000XSPKI03_TEST.pem, logging.level.root=INFO, tibco.ems.reconnattempttimeout=5000, loyalty.LTYCustomerv11.address=https://ltyservicestest:10683/Loyalty/Services/Customer/LTY_Customer_v11, loyalty.ods.datasource.driverClassName=oracle.jdbc.driver.OracleDriver, restassured.logs.enable=true, loyalty.ods.datasource.maxPoolSize=2, loyalty.offertoolupdate.topic.name=M.MKT.LTY.TRANSACTION.LTYAPP.ProcessTran.Resp, TIBCO_EMS_SSL_URL=ssl://tibenp03.federated.fds:7315, acknowledge.mode=CLIENT_ACKNOWLEDGE, loyalty.ods.datasource.password=tibco, lty.offer.consumer.enabled=true, loyalty.offertool.datasource.username=LYT4LDTA, loyalty.ods.datasource.name=ods, tibco.ems.reconnattemptcount=5000, loyalty.ods.datasource.url=jdbc:oracle:thin:@lyldev01db.federated.fds:1511/LYLTST03, loyalty.offertool.datasource.driverClassName=oracle.jdbc.driver.OracleDriver, loyalty.offertool.datasource.password=tibco123, loyalty.LTYAccountv12.address=https://ltyservicestest:10663/Loyalty/Services/Account/LTY_Account_v12, loyalty.offertool.datasource.url=jdbc:oracle:thin:@lyldev01db.federated.fds:1511/LYLTST04, tibco.ems.reconnattemptdelay=5000, loyalty.offer.uri=/api/marketing/loyalty/v1/offers, loyalty.LTYTestBed.address=http://tibanp15.federated.fds:10040/Services/TestBed}
+TR=2018-02-12 10:20:19,114|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.util.PropertyConfigManger|QAT04 properties {loyalty.ods.datasource.username=LYT3CBEM, logging.level.org.apache.http=INFO, logging.level.org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer=ERROR, lty.offer.producer.enabled=true, tibco.ems.ssl.username=admin, loyalty.offer.controls.uri=/api/marketing/loyalty/v1/controls, tibco.ems.ssl.privatekey.password=tibcoclient, loyalty.offer.activitylog.uri=/api/marketing/loyalty/v1/activitylog, rest.core.base.path=/api/, ems.client.instance.id=MCOMProdCellA.localhost.instance2, loyalty.LTYTransactionv12.address=https://ltyservicestest:10674/Loyalty/Services/Transaction/LTY_Transaction_v12, kafka.enable.secure.connection=true, tibco.ems.ssl.identity.path=../LtyCommon/src/main/resources/certs/QAT03/tibcoclient.p12, loyalty.offertool.datasource.name=offertool, loyalty.offertoolupdate.queue.name=M.MKT.LTY.EVENTBUS.OfferToolUpdate.Receive, loyalty.offer.host=http://ln001xslty0001:9080, loyalty.offertool.datasource.maxPoolSize=2, lty.offer.consumer.max.count=1, loyalty.offer.consumer.enabled=true, tibco.ems.ssl.trustedencoding.path=../LtyCommon/src/main/resources/certs/QAT03/tibcoserver.pem, enable.secure.ems.connection=true, tibco.ems.ssl.certificate.path=../LtyCommon/src/main/resources/certs/QAT03/tibcoserver.pem, logging.level.root=INFO, tibco.ems.reconnattempttimeout=5000, loyalty.LTYCustomerv11.address=https://ltyservicestest:10684/Loyalty/Services/Customer/LTY_Customer_v11, loyalty.ods.datasource.driverClassName=oracle.jdbc.driver.OracleDriver, tibco.ems.ssl.password=, restassured.logs.enable=true, loyalty.ods.datasource.maxPoolSize=2, loyalty.offertoolupdate.topic.name=M.MKT.LTY.EVENTBUS.OfferToolUpdate.Receive, TIBCO_EMS_SSL_URL=ssl://localhost:7243, acknowledge.mode=CLIENT_ACKNOWLEDGE, loyalty.ods.datasource.password=tibco, lty.offer.consumer.enabled=true, loyalty.offertool.datasource.username=LYT4LDTA, loyalty.ods.datasource.name=ods, tibco.ems.reconnattemptcount=5000, loyalty.offertool.datasource.driverClassName=oracle.jdbc.driver.OracleDriver, loyalty.ods.datasource.url=jdbc:oracle:thin:@lyldev01db.federated.fds:1511/LYLTST03, loyalty.offertool.datasource.password=tibco123, loyalty.LTYAccountv12.address=https://ltyservicestest:10664/Loyalty/Services/Account/LTY_Account_v12, loyalty.offertool.datasource.url=jdbc:oracle:thin:@lyldev01db.federated.fds:1511/LYLTST04, tibco.ems.reconnattemptdelay=5000, loyalty.offer.uri=/api/marketing/loyalty/v1/offers, loyalty.LTYTestBed.address=http://tibanp16.federated.fds:30060/Services/TestBed}
+TR=2018-02-12 10:20:19,119|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.ltyLookUp.LtyLookUpSteps|Start of method :: createOffer
+TR=2018-02-12 10:20:19,120|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.wrapper.OfferServiceWrapper|Start of method :: createOffer
+TR=2018-02-12 10:20:19,205|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|*********invokeService is starting*********
+TR=2018-02-12 10:20:19,223|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|Final uri:::::: /api/marketing/loyalty/v1/offers
+TR=2018-02-12 10:20:19,223|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|**********Request file name********** Request_CreateOffer_Scenario1.json
+TR=2018-02-12 10:20:19,223|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|*********getRequestBody starting**************
+TR=2018-02-12 10:20:19,248|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|*********getRequestBody ending**************
+TR=2018-02-12 10:20:19,249|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|*********getRequestBody starting**************
+TR=2018-02-12 10:20:19,249|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|*********getRequestBody ending**************
+TR=2018-02-12 10:20:19,250|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|**********Final Final API:::********** http://ln001xslty0001:9080/api/marketing/loyalty/v1/offers
+TR=2018-02-12 10:20:21,507|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|invokeActualRestMethod requestMethod:: POST
+Request method:	POST
+Request URI:	http://ln001xslty0001:9080/api/marketing/loyalty/v1/offers
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		accept=application/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "rewardOffer": {
+        "offerHeader": {
+            "division": 71,
+            "programCode": "LTYMCY001",
+            "desc": "spend $200,Earn 2000 points",
+            "channelEligible": "In store",
+            "effectiveDate": "2017-10-16T12:00:00.000",
+            "expirationDate": "2017-10-20T11:59:00.000",
+            "offerStatus": "DRAFT",
+            "campaignId": "LTYMCY001",
+            "campaignDescription": "LTYMCY001",
+            "createdBy": "WBT_User"
+        },
+        "offerReward": {
+            "eventType": "GENERIC",
+            "offerType": "27",
+            "offerFrequency": 3,
+            "tierName": [
+                "Platinum"
+            ],
+            "tenderType": [
+                "MCC"
+            ],
+            "priceStatus": [
+                "Active at Reg price",
+                "First markdown",
+                "Second markdown",
+                "Third markdown",
+                "Final Liguidation",
+                "Salvage",
+                "Job out",
+                "Permanent markdown"
+            ],
+            "psc": "NA",
+            "offerRank": "1",
+            "employeeExclusion": 0,
+            "fixedOfferCombinable": 0,
+            "isIncremental": false,
+            "isPowerPoint": false
+        },
+        "stores": {
+            "store": [
+                
+            ]
+        },
+        "productGroup": {
+            "recordGroup": "1",
+            "groupItemCount": 1,
+            "product": [
+                
+            ]
+        },
+        "isDeferredPoint": 0,
+        "offerRewardDetail": {
+            "txnSpendMin": 600,
+            "txnSpendMax": "",
+            "deptSpendMin": "",
+            "deptSpendMax": "",
+            "multiplier": "",
+            "points": 2000
+        }
+    }
+}
+TR=2018-02-12 10:20:26,095|ERROR|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|Exception in invokeActualRestMethod while calling External Service java.net.UnknownHostException: ln001xslty0001
+TR=2018-02-12 10:20:26,095|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|*********invokeActualRestMethod is ending*********
+TR=2018-02-12 10:20:26,095|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|*********invokeService is ending*********
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: Verify lookUp Offer" classname="Scenario: Verify lookUp Offer" time="0.039">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
+  <testcase name="And I update offer status for LookUp" classname="Scenario: Verify lookUp Offer" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then I LookUp Offer" classname="Scenario: Verify lookUp Offer" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

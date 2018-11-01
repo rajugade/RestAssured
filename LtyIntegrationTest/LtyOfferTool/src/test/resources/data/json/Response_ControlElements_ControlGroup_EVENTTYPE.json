@@ -1,0 +1,62 @@
+{
+    "controlElements": {
+        "controlElement": [
+            {
+                "id": 1,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 1,
+                "controlElementValue": "GENERIC",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 129,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 2,
+                "controlElementValue": "PICK YOUR DAY",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 166,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 3,
+                "controlElementValue": "CC ENROLL",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 170,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 4,
+                "controlElementValue": "LOYALTY ENROLL",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 174,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 5,
+                "controlElementValue": "EMAIL ADD",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 178,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 6,
+                "controlElementValue": "TIER UPGRADE",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 200,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 7,
+                "controlElementValue": "TARGETED",
+                "controlGroup": "EVENTTYPE"
+            }
+        ]
+    }
+}

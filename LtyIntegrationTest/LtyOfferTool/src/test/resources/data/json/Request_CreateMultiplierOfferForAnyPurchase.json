@@ -1,0 +1,59 @@
+{
+	"rewardOffer": {
+		"offerHeader": {
+			"division": 71,
+			"programCode": "LTYMCY001",
+			"desc": "spend $100,Earn 750 points",
+			"channelEligible": "All",
+			"effectiveDate": "2017-09-23T12:00:00.000",
+			"expirationDate": "2017-09-30T11:59:00.000",
+			"offerStatus": "DRAFT",
+			"campaignId": "LTYMCY002",
+			"campaignDescription": "spend $100,Earn 750 points",
+			"createdBy": "WBT_User"
+		},
+		"offerReward": {
+			"eventType": "GENERIC",
+			"offerType": "1",
+			"offerFrequency": 3,
+			"tierName": ["Platinum"],
+			"tenderType": [
+				"MCC"
+			],
+			"priceStatus": [
+				"Second markdown",
+				"Third markdown",
+				"Final Liguidation",
+				"Salvage",
+				"Job out",
+				"Permanent markdown"
+			],
+			"psc": "NA",
+			"offerRank": "1",
+			"employeeExclusion": 0,
+			"fixedOfferCombinable": 0
+		},
+		"stores": {
+			"store": []
+		},
+		"productGroup": {
+			"recordGroup": "1",
+			"groupItemCount": 2,
+			"product": [
+				{
+					"gmmID": "1",
+					"productDivision": "6",
+					"dept": "283"
+				}
+			]
+		},
+		"isDeferredPoint": 0,
+		"offerRewardDetail": {
+			"txnSpendMin": 100,
+			"deptSpendMin": "",
+			"deptSpendMax": "",
+			"multiplier": 50,
+			"points": "0"
+		}
+	}
+}

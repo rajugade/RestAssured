@@ -1,0 +1,78 @@
+{
+    "rewardOffer": {
+        "offerHeader": {
+            "offerCode": "MCY10010378",
+            "division": "76",
+            "programCode": "LTYMCY001",
+            "desc": "spend $100,Earn 20 points",
+            "channelEligible": "All",
+            "effectiveDate": "2017-11-23T00:00:00.000",
+            "expirationDate": "2017-11-30T23:59:00.000",
+            "offerStatus": "DRAFT",
+            "createdBy": "WBT_User",
+            "campaignId": "LTYMCY001",
+            "campaignDescription": "spend $100,Earn 20 points"
+        },
+        "offerReward": {
+            "eventType": "PICK YOUR DAY",
+            "eventName": "Test123",
+            "offerType": "1",
+            "validInDays": 0,
+            "offerFrequency": 1,
+            "tierName": ["Gold"],
+            "tenderType": [
+                "MCC"
+            ],
+            "priceStatus": [
+                "First markdown"
+            ],
+            "offerRank": 2,
+            "employeeExclusion": false,
+            "fixedOfferCombinable": false,
+            "isIncremental": false,
+            "isPowerPoint": false,
+            "psc": "NA"
+        },
+        "stores": {
+            "store": []
+        },
+        "productGroup": {
+            "recordGroup": 1,
+            "groupItemCount": 1,
+            "product": [
+                {
+                    "dept": 801,
+                    "gmmID": 1,
+                    "productDivision": 1
+                },
+                {
+                    "dept": 808,
+                    "gmmID": 1,
+                    "productDivision": 1
+                },
+                {
+                    "dept": 823,
+                    "gmmID": 2,
+                    "productDivision": 2
+                },
+                {
+                    "dept": 825,
+                    "gmmID": 2,
+                    "productDivision": 2
+                },
+                {
+                    "dept": 835,
+                    "gmmID": 2,
+                    "productDivision": 2
+                }
+            ]
+        },
+        "offerRewardDetail": {
+            "multiplier": 2
+        },
+        "notes": {
+            "note": []
+        },
+        "deferredPoint": false
+    }
+}

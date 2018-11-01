@@ -1,0 +1,70 @@
+{
+    "controlElements": {
+        "controlElement": [
+            {
+                "id": 11,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 0,
+                "controlElementValue": "Active at Reg price",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 12,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 1,
+                "controlElementValue": "First markdown",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 13,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 2,
+                "controlElementValue": "Second markdown",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 14,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 3,
+                "controlElementValue": "Third markdown",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 15,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 4,
+                "controlElementValue": "Final Liquidation",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 16,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 5,
+                "controlElementValue": "Salvage",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 17,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 6,
+                "controlElementValue": "Job out",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 18,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 7,
+                "controlElementValue": "Permanent markdown",
+                "controlGroup": "PRICESTATUS"
+            }
+        ]
+    }
+}

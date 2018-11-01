@@ -1,0 +1,58 @@
+{
+	"rewardOffer": {
+		"offerHeader": {
+			"division": 71,
+			"programCode": "LTYMCY001",
+			"desc": "Buy Beauty Product, Earn 100 points",
+			"channelEligible": "Online",
+			"effectiveDate": "2017-09-22T12:00:00.000",
+			"expirationDate": "2017-10-06T11:59:00.000",
+			"offerStatus": "DRAFT",
+			"campaignId": "LTYMCY001",
+			"campaignDescription": "LTYMCY001",
+			"createdBy": "BM0099"
+		},
+		"offerReward": {
+			"eventType": "GENERIC",
+			"offerType": "28",
+			"offerFrequency": 3,
+			"tierName": "All",
+			"tenderType": [
+				"MCC"
+			],
+			"priceStatus": [
+				"Active at Reg price",
+				"Second markdown",
+				"Salvage",
+				"Job out",
+				"Permanent markdown"
+			],
+			"psc": "NA",
+			"offerRank": "5",
+			"employeeExclusion": 0,
+			"fixedOfferCombinable": 0
+		},
+		"stores": {
+			"store": []
+		},
+		"productGroup": {
+			"recordGroup": "1",
+			"groupItemCount": 2,
+			"product": [
+				{
+					"gmmID": "4",
+					"productDivision": "41"
+				}
+			]
+		},
+		"isDeferredPoint": 0,
+		"offerRewardDetail": {
+			"txnSpendMin": "",
+			"txnSpendMax": "",
+			"deptSpendMin": 99,
+			"deptSpendMax": "",
+			"multiplier": "0",
+			"points": 100
+		}
+	}
+}

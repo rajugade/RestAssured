@@ -1,0 +1,95 @@
+{
+    "rewardOffer": {
+        "offerHeader": {
+            "offerCode": "MCY10010382",
+            "division": "72",
+            "programCode": "LTYMCY001",
+            "desc": "spend $100,Earn 20 points",
+            "channelEligible": "In store",
+            "effectiveDate": "2017-11-29T00:00:00.000",
+            "expirationDate": "2017-12-29T23:59:00.000",
+            "offerStatus": "DRAFT",
+            "createdBy": "WBT_User",
+            "campaignId": "LTYMCY001",
+            "campaignDescription": "spend $100,Earn 20 points"
+        },
+        "offerReward": {
+            "eventType": "PICK YOUR DAY",
+            "eventName": "Test123",
+            "offerType": "3",
+            "validInDays": 0,
+            "offerFrequency": 1,
+            "tierName": ["All"],
+            "tenderType": [
+                "MCC"
+            ],
+            "priceStatus": [
+                "Active at Reg price",
+                "First markdown",
+                "Second markdown",
+                "Third markdown",
+                "Final Liquidation",
+                "Salvage",
+                "Job out",
+                "Permanent markdown"
+            ],
+            "offerRank": 3,
+            "employeeExclusion": true,
+            "fixedOfferCombinable": false,
+            "isIncremental": false,
+            "isPowerPoint": false,
+            "psc": "NA"
+        },
+        "stores": {
+            "store": [
+                {
+                    "region": "00001",
+                    "subRegion": "00030",
+                    "district": "00031",
+                    "store": "00005"
+                },
+                {
+                    "region": "00001",
+                    "subRegion": "00030",
+                    "district": "00031",
+                    "store": "00006"
+                },
+                {
+                    "region": "00001",
+                    "subRegion": "00030",
+                    "district": "00031",
+                    "store": "00037"
+                }
+            ]
+        },
+        "productGroup": {
+            "recordGroup": 1,
+            "groupItemCount": 1,
+            "product": [
+                {
+                    "dept": 411,
+                    "gmmID": 3,
+                    "productDivision": 13
+                },
+                {
+                    "dept": 426,
+                    "gmmID": 3,
+                    "productDivision": 13
+                },
+                {
+                    "dept": 823,
+                    "gmmID": 10,
+                    "productDivision": 81
+                }
+            ]
+        },
+        "offerRewardDetail": {
+            "multiplier": 5,
+            "deptSpendMin": 100
+        },
+        "notes": {
+            "note": []
+        },
+        "deferredPoint": false
+    }
+}

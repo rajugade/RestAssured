@@ -1,0 +1,1646 @@
+{
+    "controlElements": {
+        "controlElement": [
+            {
+                "id": 1,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 1,
+                "controlElementValue": "GENERIC",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 3,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 1,
+                "controlElementValue": "Platinum",
+                "controlGroup": "TIERLEVEL"
+            },
+            {
+                "id": 4,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 2,
+                "controlElementValue": "Gold",
+                "controlGroup": "TIERLEVEL"
+            },
+            {
+                "id": 5,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 3,
+                "controlElementValue": "Silver",
+                "controlGroup": "TIERLEVEL"
+            },
+            {
+                "id": 6,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 1,
+                "controlElementValue": "1",
+                "controlGroup": "PRIORITY"
+            },
+            {
+                "id": 7,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 2,
+                "controlElementValue": "2",
+                "controlGroup": "PRIORITY"
+            },
+            {
+                "id": 8,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 3,
+                "controlElementValue": "3",
+                "controlGroup": "PRIORITY"
+            },
+            {
+                "id": 9,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 4,
+                "controlElementValue": "4",
+                "controlGroup": "PRIORITY"
+            },
+            {
+                "id": 10,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 5,
+                "controlElementValue": "5",
+                "controlGroup": "PRIORITY"
+            },
+            {
+                "id": 11,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 0,
+                "controlElementValue": "Active at Reg price",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 12,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 1,
+                "controlElementValue": "First markdown",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 13,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 2,
+                "controlElementValue": "Second markdown",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 14,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 3,
+                "controlElementValue": "Third markdown",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 15,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 4,
+                "controlElementValue": "Final Liquidation",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 16,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 5,
+                "controlElementValue": "Salvage",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 17,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 6,
+                "controlElementValue": "Job out",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 18,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 7,
+                "controlElementValue": "Permanent markdown",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 19,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 1,
+                "controlElementValue": "Once",
+                "controlGroup": "PRESENTMENT"
+            },
+            {
+                "id": 20,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 3,
+                "controlElementValue": "Multiple",
+                "controlGroup": "PRESENTMENT"
+            },
+            {
+                "id": 21,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 1,
+                "controlElementValue": "Multiplier for any purchase get Xx points after any purchase",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "MULTIPLIER"
+            },
+            {
+                "id": 22,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 2,
+                "controlElementValue": "Multiplier for Transaction Spend: Get Xx Points after $Y spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "MULTIPLIER"
+            },
+            {
+                "id": 23,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 3,
+                "controlElementValue": "Multiplier for Product Spend: Get Xx Points $Y product spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "MULTIPLIER"
+            },
+            {
+                "id": 24,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 4,
+                "controlElementValue": "Fixed Points for any Purchase : Get X points after any purchase",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 25,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 5,
+                "controlElementValue": "Fixed Points for Transaction Spend: Get X points after $ Y spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 26,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 6,
+                "controlElementValue": "Fixed Points for Product Spend:Get X points for $Y product spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 28,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 1,
+                "controlElementValue": "In store",
+                "controlGroup": "CHANNELELIGIBLE"
+            },
+            {
+                "id": 29,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 2,
+                "controlElementValue": "Online",
+                "controlGroup": "CHANNELELIGIBLE"
+            },
+            {
+                "id": 31,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 1,
+                "controlElementValue": "GENERIC",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 33,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 1,
+                "controlElementValue": "Platinum",
+                "controlGroup": "TIERLEVEL"
+            },
+            {
+                "id": 34,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 2,
+                "controlElementValue": "Gold",
+                "controlGroup": "TIERLEVEL"
+            },
+            {
+                "id": 35,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 3,
+                "controlElementValue": "Silver",
+                "controlGroup": "TIERLEVEL"
+            },
+            {
+                "id": 36,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 1,
+                "controlElementValue": "1",
+                "controlGroup": "PRIORITY"
+            },
+            {
+                "id": 37,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 2,
+                "controlElementValue": "2",
+                "controlGroup": "PRIORITY"
+            },
+            {
+                "id": 38,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 3,
+                "controlElementValue": "3",
+                "controlGroup": "PRIORITY"
+            },
+            {
+                "id": 39,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 4,
+                "controlElementValue": "4",
+                "controlGroup": "PRIORITY"
+            },
+            {
+                "id": 40,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 5,
+                "controlElementValue": "5",
+                "controlGroup": "PRIORITY"
+            },
+            {
+                "id": 41,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 0,
+                "controlElementValue": "Active at Reg price",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 42,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 1,
+                "controlElementValue": "First markdown",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 43,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 2,
+                "controlElementValue": "Second markdown",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 44,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 3,
+                "controlElementValue": "Third markdown",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 45,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 4,
+                "controlElementValue": "Final Liquidation",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 46,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 5,
+                "controlElementValue": "Salvage",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 47,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 6,
+                "controlElementValue": "Job out",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 48,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 7,
+                "controlElementValue": "Permanent markdown",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 49,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 1,
+                "controlElementValue": "Once",
+                "controlGroup": "PRESENTMENT"
+            },
+            {
+                "id": 50,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 3,
+                "controlElementValue": "Multiple",
+                "controlGroup": "PRESENTMENT"
+            },
+            {
+                "id": 51,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 1,
+                "controlElementValue": "Multiplier for any purchase get Xx points after any purchase",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "MULTIPLIER"
+            },
+            {
+                "id": 52,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 2,
+                "controlElementValue": "Multiplier for Transaction Spend: Get Xx Points after $Y spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "MULTIPLIER"
+            },
+            {
+                "id": 53,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 3,
+                "controlElementValue": "Multiplier for Product Spend: Get Xx Points $Y product spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "MULTIPLIER"
+            },
+            {
+                "id": 54,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 4,
+                "controlElementValue": "Fixed Points for any Purchase : Get X points after any purchase",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 55,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 5,
+                "controlElementValue": "Fixed Points for Transaction Spend: Get X points after $ Y spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 56,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 6,
+                "controlElementValue": "Fixed Points for Product Spend:Get X points for $Y product spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 57,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 99,
+                "controlElementValue": "All",
+                "controlGroup": "CHANNELELIGIBLE"
+            },
+            {
+                "id": 58,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 1,
+                "controlElementValue": "In store",
+                "controlGroup": "CHANNELELIGIBLE"
+            },
+            {
+                "id": 59,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 2,
+                "controlElementValue": "Online",
+                "controlGroup": "CHANNELELIGIBLE"
+            },
+            {
+                "id": 61,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 1,
+                "controlElementValue": "GENERIC",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 63,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 1,
+                "controlElementValue": "Top of the List",
+                "controlGroup": "TIERLEVEL",
+                "ltyControlGroup": "BLMT001"
+            },
+            {
+                "id": 64,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 2,
+                "controlElementValue": "BCC Loyallist",
+                "controlGroup": "TIERLEVEL",
+                "ltyControlGroup": "BLMT002"
+            },
+            {
+                "id": 65,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 3,
+                "controlElementValue": "Third Party Loyallist",
+                "controlGroup": "TIERLEVEL",
+                "ltyControlGroup": "BLMT003"
+            },
+            {
+                "id": 66,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 1,
+                "controlElementValue": "1",
+                "controlGroup": "PRIORITY"
+            },
+            {
+                "id": 67,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 2,
+                "controlElementValue": "2",
+                "controlGroup": "PRIORITY"
+            },
+            {
+                "id": 68,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 3,
+                "controlElementValue": "3",
+                "controlGroup": "PRIORITY"
+            },
+            {
+                "id": 69,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 4,
+                "controlElementValue": "4",
+                "controlGroup": "PRIORITY"
+            },
+            {
+                "id": 70,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 5,
+                "controlElementValue": "5",
+                "controlGroup": "PRIORITY"
+            },
+            {
+                "id": 72,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 0,
+                "controlElementValue": "Active at Reg price",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 73,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 1,
+                "controlElementValue": "First markdown",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 74,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 2,
+                "controlElementValue": "Second markdown",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 75,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 3,
+                "controlElementValue": "Third markdown",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 76,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 4,
+                "controlElementValue": "Final Liquidation",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 77,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 5,
+                "controlElementValue": "Salvage",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 78,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 6,
+                "controlElementValue": "Job out",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 79,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 7,
+                "controlElementValue": "Permanent markdown",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 80,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 1,
+                "controlElementValue": "Once",
+                "controlGroup": "PRESENTMENT"
+            },
+            {
+                "id": 81,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 3,
+                "controlElementValue": "Multiple",
+                "controlGroup": "PRESENTMENT"
+            },
+            {
+                "id": 82,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 1,
+                "controlElementValue": "Multiplier for any purchase get Xx points after any purchase",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "MULTIPLIER"
+            },
+            {
+                "id": 83,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 2,
+                "controlElementValue": "Multiplier for Transaction Spend: Get Xx Points after $Y spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "MULTIPLIER"
+            },
+            {
+                "id": 84,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 3,
+                "controlElementValue": "Multiplier for Product Spend: Get Xx Points $Y product spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "MULTIPLIER"
+            },
+            {
+                "id": 85,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 4,
+                "controlElementValue": "Fixed Points for any Purchase : Get X points after any purchase",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 86,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 5,
+                "controlElementValue": "Fixed Points for Transaction Spend: Get X points after $ Y spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 87,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 6,
+                "controlElementValue": "Fixed Points for Product Spend:Get X points for $Y product spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 88,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 99,
+                "controlElementValue": "All",
+                "controlGroup": "CHANNELELIGIBLE"
+            },
+            {
+                "id": 89,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 1,
+                "controlElementValue": "In store",
+                "controlGroup": "CHANNELELIGIBLE"
+            },
+            {
+                "id": 90,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 2,
+                "controlElementValue": "Online",
+                "controlGroup": "CHANNELELIGIBLE"
+            },
+            {
+                "id": 91,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 1,
+                "controlElementValue": "GENERIC",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 93,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 1,
+                "controlElementValue": "Top of the List",
+                "controlGroup": "TIERLEVEL",
+                "ltyControlGroup": "BLMT001"
+            },
+            {
+                "id": 94,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 2,
+                "controlElementValue": "BCC Loyallist",
+                "controlGroup": "TIERLEVEL",
+                "ltyControlGroup": "BLMT002"
+            },
+            {
+                "id": 95,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 3,
+                "controlElementValue": "Third Party Loyallist",
+                "controlGroup": "TIERLEVEL",
+                "ltyControlGroup": "BLMT003"
+            },
+            {
+                "id": 96,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 1,
+                "controlElementValue": "1",
+                "controlGroup": "PRIORITY"
+            },
+            {
+                "id": 97,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 2,
+                "controlElementValue": "2",
+                "controlGroup": "PRIORITY"
+            },
+            {
+                "id": 98,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 3,
+                "controlElementValue": "3",
+                "controlGroup": "PRIORITY"
+            },
+            {
+                "id": 99,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 4,
+                "controlElementValue": "4",
+                "controlGroup": "PRIORITY"
+            },
+            {
+                "id": 100,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 5,
+                "controlElementValue": "5",
+                "controlGroup": "PRIORITY"
+            },
+            {
+                "id": 102,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 0,
+                "controlElementValue": "Active at Reg price",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 103,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 1,
+                "controlElementValue": "First markdown",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 104,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 2,
+                "controlElementValue": "Second markdown",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 105,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 3,
+                "controlElementValue": "Third markdown",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 106,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 4,
+                "controlElementValue": "Final Liquidation",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 107,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 5,
+                "controlElementValue": "Salvage",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 108,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 6,
+                "controlElementValue": "Job out",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 109,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 7,
+                "controlElementValue": "Permanent markdown",
+                "controlGroup": "PRICESTATUS"
+            },
+            {
+                "id": 110,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 1,
+                "controlElementValue": "Once",
+                "controlGroup": "PRESENTMENT"
+            },
+            {
+                "id": 111,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 3,
+                "controlElementValue": "Multiple",
+                "controlGroup": "PRESENTMENT"
+            },
+            {
+                "id": 112,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 1,
+                "controlElementValue": "Multiplier for any purchase get Xx points after any purchase",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "MULTIPLIER"
+            },
+            {
+                "id": 113,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 2,
+                "controlElementValue": "Multiplier for Transaction Spend: Get Xx Points after $Y spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "MULTIPLIER"
+            },
+            {
+                "id": 114,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 3,
+                "controlElementValue": "Multiplier for Product Spend: Get Xx Points $Y product spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "MULTIPLIER"
+            },
+            {
+                "id": 115,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 4,
+                "controlElementValue": "Fixed Points for any Purchase : Get X points after any purchase",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 116,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 5,
+                "controlElementValue": "Fixed Points for Transaction Spend: Get X points after $ Y spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 117,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 6,
+                "controlElementValue": "Fixed Points for Product Spend:Get X points for $Y product spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 118,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 99,
+                "controlElementValue": "All",
+                "controlGroup": "CHANNELELIGIBLE"
+            },
+            {
+                "id": 119,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 1,
+                "controlElementValue": "In store",
+                "controlGroup": "CHANNELELIGIBLE"
+            },
+            {
+                "id": 120,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 2,
+                "controlElementValue": "Online",
+                "controlGroup": "CHANNELELIGIBLE"
+            },
+            {
+                "id": 121,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 71,
+                "controlElementValue": "MACYS",
+                "controlGroup": "DIVISION"
+            },
+            {
+                "id": 122,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 77,
+                "controlElementValue": "BACKSTAGE",
+                "controlGroup": "DIVISION"
+            },
+            {
+                "id": 123,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 1,
+                "controlElementValue": "LTYMCY001",
+                "controlGroup": "PROGRAM"
+            },
+            {
+                "id": 124,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 1,
+                "controlElementValue": "LTYMCY001",
+                "controlGroup": "PROGRAM"
+            },
+            {
+                "id": 125,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 72,
+                "controlElementValue": "BLOOMINGDALE'S",
+                "controlGroup": "DIVISION"
+            },
+            {
+                "id": 126,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 76,
+                "controlElementValue": "BLOOMINGDALE'S OUTLET",
+                "controlGroup": "DIVISION"
+            },
+            {
+                "id": 127,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 2,
+                "controlElementValue": "LTYBLM001",
+                "controlGroup": "PROGRAM"
+            },
+            {
+                "id": 128,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 2,
+                "controlElementValue": "LTYBLM001",
+                "controlGroup": "PROGRAM"
+            },
+            {
+                "id": 129,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 2,
+                "controlElementValue": "PICK YOUR DAY",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 130,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 2,
+                "controlElementValue": "PICK YOUR DAY",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 131,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 2,
+                "controlElementValue": "PICK YOUR DAY",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 132,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 2,
+                "controlElementValue": "PICK YOUR DAY",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 133,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 7,
+                "controlElementValue": "Fixed incremental points for every purchase of $XX (no product)",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 134,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 7,
+                "controlElementValue": "Fixed incremental points for every purchase of $XX (no product)",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 135,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 7,
+                "controlElementValue": "Fixed incremental points for every purchase of $XX (no product)",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 136,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 7,
+                "controlElementValue": "Fixed incremental points for every purchase of $XX (no product)",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 137,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 8,
+                "controlElementValue": "Fixed incremental points for every purchase of $XX product spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 138,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 8,
+                "controlElementValue": "Fixed incremental points for every purchase of $XX product spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 139,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 8,
+                "controlElementValue": "Fixed incremental points for every purchase of $XX product spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 204,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 99,
+                "controlElementValue": "ALL",
+                "controlGroup": "TIERLEVEL"
+            },
+            {
+                "id": 205,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 99,
+                "controlElementValue": "ALL",
+                "controlGroup": "TIERLEVEL"
+            },
+            {
+                "id": 206,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 99,
+                "controlElementValue": "ALL",
+                "controlGroup": "TIERLEVEL"
+            },
+            {
+                "id": 207,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 99,
+                "controlElementValue": "ALL",
+                "controlGroup": "TIERLEVEL"
+            },
+            {
+                "id": 140,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 8,
+                "controlElementValue": "Fixed incremental points for every purchase of $XX product spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 27,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 99,
+                "controlElementValue": "All",
+                "controlGroup": "CHANNELELIGIBLE"
+            },
+            {
+                "id": 183,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 9,
+                "controlElementValue": "Fixed for non-transactional behavior (no purchase required)",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 141,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 99,
+                "controlElementValue": "ALL",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 142,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 1,
+                "controlElementValue": "PROP",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 143,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 2,
+                "controlElementValue": "Co Brand",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 144,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 3,
+                "controlElementValue": "3rd Party CC",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 145,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 4,
+                "controlElementValue": "CASH",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 146,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 5,
+                "controlElementValue": "Gift Card",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 147,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 99,
+                "controlElementValue": "ALL",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 148,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 1,
+                "controlElementValue": "PROP",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 149,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 2,
+                "controlElementValue": "Co Brand",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 150,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 3,
+                "controlElementValue": "3rd Party CC",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 151,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 4,
+                "controlElementValue": "CASH",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 152,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 5,
+                "controlElementValue": "Gift Card",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 153,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 99,
+                "controlElementValue": "ALL",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 154,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 1,
+                "controlElementValue": "PROP",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 155,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 2,
+                "controlElementValue": "Co Brand",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 156,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 3,
+                "controlElementValue": "3rd Party CC",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 157,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 4,
+                "controlElementValue": "CASH",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 158,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 5,
+                "controlElementValue": "Gift Card",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 159,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 99,
+                "controlElementValue": "ALL",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 160,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 1,
+                "controlElementValue": "PROP",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 161,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 2,
+                "controlElementValue": "Co Brand",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 162,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 3,
+                "controlElementValue": "3rd Party CC",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 163,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 4,
+                "controlElementValue": "CASH",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 164,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 5,
+                "controlElementValue": "Gift Card",
+                "controlGroup": "TENDERTYPE"
+            },
+            {
+                "id": 194,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 12,
+                "controlElementValue": "PPD : get x points per $ after any purchase",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "PULSE"
+            },
+            {
+                "id": 166,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 3,
+                "controlElementValue": "CC ENROLL",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 167,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 3,
+                "controlElementValue": "CC ENROLL",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 168,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 3,
+                "controlElementValue": "CC ENROLL",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 169,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 3,
+                "controlElementValue": "CC ENROLL",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 170,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 4,
+                "controlElementValue": "LOYALTY ENROLL",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 171,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 4,
+                "controlElementValue": "LOYALTY ENROLL",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 172,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 4,
+                "controlElementValue": "LOYALTY ENROLL",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 173,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 4,
+                "controlElementValue": "LOYALTY ENROLL",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 174,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 5,
+                "controlElementValue": "EMAIL ADD",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 175,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 5,
+                "controlElementValue": "EMAIL ADD",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 176,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 5,
+                "controlElementValue": "EMAIL ADD",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 177,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 5,
+                "controlElementValue": "EMAIL ADD",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 178,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 6,
+                "controlElementValue": "TIER UPGRADE",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 179,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 6,
+                "controlElementValue": "TIER UPGRADE",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 180,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 6,
+                "controlElementValue": "TIER UPGRADE",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 181,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 6,
+                "controlElementValue": "TIER UPGRADE",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 182,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 9,
+                "controlElementValue": "Fixed for non-transactional behavior (no purchase required)",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 184,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 9,
+                "controlElementValue": "Fixed for non-transactional behavior (no purchase required)",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 185,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 9,
+                "controlElementValue": "Fixed for non-transactional behavior (no purchase required)",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 186,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 10,
+                "controlElementValue": "Fixed for non-transactional behavior (purchase required)",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 187,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 10,
+                "controlElementValue": "Fixed for non-transactional behavior (purchase required)",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 188,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 10,
+                "controlElementValue": "Fixed for non-transactional behavior (purchase required)",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 189,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 10,
+                "controlElementValue": "Fixed for non-transactional behavior (purchase required)",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 190,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 11,
+                "controlElementValue": "Multiplier for non-transactional behavior (purchase required)",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "MULTIPLIER"
+            },
+            {
+                "id": 191,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 11,
+                "controlElementValue": "Multiplier for non-transactional behavior (purchase required)",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "MULTIPLIER"
+            },
+            {
+                "id": 192,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 11,
+                "controlElementValue": "Multiplier for non-transactional behavior (purchase required)",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "MULTIPLIER"
+            },
+            {
+                "id": 193,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 11,
+                "controlElementValue": "Multiplier for non-transactional behavior (purchase required)",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "MULTIPLIER"
+            },
+            {
+                "id": 195,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 13,
+                "controlElementValue": "PPD : get x points per $ after $Y spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "PULSE"
+            },
+            {
+                "id": 196,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 14,
+                "controlElementValue": "PPD : get x points per $ after $Y product spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "PULSE"
+            },
+            {
+                "id": 197,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 12,
+                "controlElementValue": "PPD : get x points per $ after any purchase",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "PULSE"
+            },
+            {
+                "id": 198,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 13,
+                "controlElementValue": "PPD : get x points per $ after $Y spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "PULSE"
+            },
+            {
+                "id": 199,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 14,
+                "controlElementValue": "PPD : get x points per $ after $Y product spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "PULSE"
+            },
+            {
+                "id": 200,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 7,
+                "controlElementValue": "TARGETED",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 201,
+                "brand": "MACYS",
+                "division": 77,
+                "controlKey": 7,
+                "controlElementValue": "TARGETED",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 202,
+                "brand": "BLM",
+                "division": 72,
+                "controlKey": 7,
+                "controlElementValue": "TARGETED",
+                "controlGroup": "EVENTTYPE"
+            },
+            {
+                "id": 203,
+                "brand": "BLM",
+                "division": 76,
+                "controlKey": 7,
+                "controlElementValue": "TARGETED",
+                "controlGroup": "EVENTTYPE"
+            }
+        ]
+    }
+}

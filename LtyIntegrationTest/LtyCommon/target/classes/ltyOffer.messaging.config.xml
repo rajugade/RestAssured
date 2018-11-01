@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:messaging="http://www.macys.com/schema/messagingclient"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	   					http://www.macys.com/schema/messagingclient http://www.macys.com/schema/core/messaging-client.xsd">
+	   					
+	<bean name = "preferenceMessageProperties"
+		  class="org.springframework.context.support.PropertySourcesPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:application.properties</value>
+				<value>classpath:env/QAT03/messaging-queue.properties</value>
+				<value>classpath:env/QAT03/db-schema.properties</value>
+				<value>classpath:env/QAT03/soap-rest-endpoints.properties</value>
+				
+				<value>classpath:env/QAT04/messaging-queue.properties</value>
+				<value>classpath:env/QAT04/db-schema.properties</value>
+				<value>classpath:env/QAT04/soap-rest-endpoints.properties</value>
+			</list>
+		</property>
+		<property name="ignoreUnresolvablePlaceholders" value="true" />
+		<property name="order" value="1" />
+	</bean>
+	
+	
+	<messaging:messagePublisher 
+		beanId="ltyMessageProducer"
+		provider="TIBCO" 
+		destinationType="QUEUE" 
+		destination="${loyalty.offertoolupdate.queue.name}"
+		enableProducer="${lty.offer.producer.enabled}" 
+		clientId="${ems.client.instance.id}"
+		connectionId="sslConnectionFactory"/> 
+		
+	 <messaging:messageConsumer 
+	    provider="TIBCO"
+		destinationType="TOPIC"
+		destination="${loyalty.offertoolupdate.topic.name}"
+		businessClass="com.macys.marketing.msp.LtyIntegrationTest.messaging.TibcoMessageConsumerImpl"
+		enableConsumer="${lty.offer.consumer.enabled}"
+		cousumerCount="${lty.offer.consumer.max.count}"
+		connectionId="sslConnectionFactory" 
+		clientId="${ems.client.instance.id}"
+		persistOnFail="${loyalty.offer.consumer.enabled}"/>
+
+ <import resource="classpath:META-INF/spring/tibco-ssl-connection-config.xml" />
+ <import resource="classpath:META-INF/spring/messaging-client-config.xml" />
+	   
+</beans>

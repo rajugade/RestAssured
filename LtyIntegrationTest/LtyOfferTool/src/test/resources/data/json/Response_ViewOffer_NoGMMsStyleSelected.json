@@ -1,0 +1,85 @@
+{
+    "rewardOffer": {
+        "offerHeader": {
+            "offerCode": "MCY10010514",
+            "division": "71",
+            "programCode": "LTYMCY001",
+            "desc": "spend $100,Earn 20 points",
+            "channelEligible": "All",
+            "effectiveDate": "2017-11-15T12:00:00.000",
+            "expirationDate": "2017-11-30T11:59:00.000",
+            "offerStatus": "DRAFT",
+            "createdBy": "WBT_User",
+            "campaignId": "LTYMCY001",
+            "campaignDescription": "spend $100,Earn 20 points"
+        },
+        "offerReward": {
+            "eventType": "GENERIC",
+            "eventName": "Test123",
+            "offerType": "3",
+            "validInDays": 0,
+            "offerFrequency": 1,
+            "tierName": ["All"],
+            "tenderType": [
+                "MCC"
+            ],
+            "priceStatus": [
+                "Active at Reg price",
+                "First markdown",
+                "Second markdown",
+                "Third markdown",
+                "Final Liguidation",
+                "Salvage",
+                "Job out",
+                "Permanent markdown"
+            ],
+            "offerRank": 4,
+            "employeeExclusion": false,
+            "fixedOfferCombinable": false,
+            "isIncremental":false,
+            "isPowerPoint":false,
+            "psc": "NA"
+        },
+        "stores": {
+            "store": []
+        },
+        "productGroup": {
+            "recordGroup": 0,
+            "groupItemCount": 0,
+            "product": [
+                {
+                    "gmmID": 1
+                },
+                {
+                    "gmmID": 2
+                },
+                {
+                    "gmmID": 4
+                },
+                {
+                    "gmmID": 5
+                },
+                {
+                    "gmmID": 6
+                },
+                {
+                    "gmmID": 7
+                },
+                {
+                    "gmmID": 47
+                },
+                {
+                    "gmmID": 91
+                }
+            ]
+        },
+        "offerRewardDetail": {
+            "multiplier": 1,
+            "deptSpendMin": 100
+        },
+        "notes": {
+            "note": []
+        },
+        "deferredPoint": false
+    }
+}

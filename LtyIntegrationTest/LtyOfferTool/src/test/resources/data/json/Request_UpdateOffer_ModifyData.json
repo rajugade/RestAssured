@@ -1,0 +1,65 @@
+{
+    "rewardOffer": {
+        "offerHeader": {
+            "id": 21905,
+            "offerCode": "offrCode",
+            "division": "71",
+            "programCode": "LTYMCY001",
+            "desc": "Test By WBT",
+            "channelEligible": "In store",
+            "effectiveDate": "2017-10-16T12:00:00.000",
+            "expirationDate": "2017-10-20T11:59:00.000",
+            "offerStatus": "DRAFT",
+            "createdBy": "WBT_USER",
+            "createdTs": "2018-02-01T12:20:24.968",
+            "lastUpdateTs": "2018-02-01T12:20:24.968",
+            "campaignId": "LTYMCY001",
+            "campaignDescription": "LTYMCY001"
+        },
+        "offerReward": {
+            "eventType": "GENERIC",
+            "offerType": "5",
+            "validInDays": 0,
+            "offerFrequency": 3,
+            "tierName": [
+                "Platinum"
+            ],
+            "tenderType": [
+                "MCC"
+            ],
+            "priceStatus": [
+                "Active at Reg price",
+                "First markdown",
+                "Second markdown",
+                "Third markdown",
+                "Final Liguidation",
+                "Salvage",
+                "Job out",
+                "Permanent markdown"
+            ],
+            "offerRank": 1,
+            "employeeExclusion": false,
+            "fixedOfferCombinable": false,
+            "isIncremental": false,
+            "isPowerPoint": false,
+            "psc": "NA",
+            "isPickaday": false
+        },
+        "stores": {
+            "store": []
+        },
+        "productGroup": {
+            "recordGroup": 0,
+            "groupItemCount": 0,
+            "product": []
+        },
+        "offerRewardDetail": {
+            "points": 2000,
+            "txnSpendMin": 600
+        },
+        "notes": {
+            "note": []
+        },
+        "deferredPoint": false
+    }
+}

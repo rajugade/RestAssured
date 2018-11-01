@@ -1,0 +1,14 @@
+{
+  "rewardOffer":{
+"offerHeader":	{
+"offerCode":"offrCode",
+"offerStatus":"DRAFT",
+"rejectNote":"Rejection Reason"
+},
+"notes":{
+"note":	[],
+"0":{
+"note":"Rejection Reason",
+"noteBy":"TEST_USER",
+"noteDt":"2017-06-28"
+}}}}

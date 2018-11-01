@@ -1,0 +1,64 @@
+{  
+   "rewardOffer":{  
+      "offerHeader":{  
+         "division":"71",
+         "programCode":"LTYMCY001",
+         "desc":"TEST",
+         "channelEligible":"In store",
+          "effectiveDate":"2017-12-12T00:00:00.000",
+         "expirationDate":"2017-12-13T00:00:00.000",
+         "offerStatus":"DRAFT",
+         "campaignId":"1234",
+         "campaignDescription":"Test1",
+         "createdBy":"WBT_User"
+      },
+      "offerReward":{  
+         "eventType":"eventTypes",
+         "offerType":"offerTypeVal",
+         "offerFrequency":1,
+         "tierName":[  
+            "Platinum"
+         ],
+         "tenderType":[  
+            "MCC"
+         ],
+         "priceStatus":[  
+            "Active at Reg price",
+            "First markdown",
+            "Second markdown",
+            "Third markdown",
+            "Final Liquidation",
+            "Salvage",
+            "Job out",
+            "Permanent markdown"
+         ],
+         "psc":"NA",
+         "offerRank":"1",
+         "employeeExclusion":0,
+         "fixedOfferCombinable":0,
+         "isIncremental":false,
+         "incrementalAmount":""
+         
+         
+      },
+      "stores":{  
+         "store":[]
+      },
+      "productGroup":{  
+         "recordGroup":"1",
+         "groupItemCount":1,
+         "product":[  
+
+         ]
+      },
+      "deferredPoint":0,
+      "offerRewardDetail":{  
+         "txnSpendMin":"txnSpendMinVal",
+         "txnSpendMax":"txnSpendMaxVal",
+         "deptSpendMin":"deptSpendMinVal",
+         "deptSpendMax":"deptSpendMaxVal",
+         "multiplier":"multiplierVal",
+         "points":"pointsVal"
+      }
+   }
+}

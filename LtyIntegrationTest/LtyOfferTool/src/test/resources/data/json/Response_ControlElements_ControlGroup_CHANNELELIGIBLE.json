@@ -1,0 +1,30 @@
+{
+    "controlElements": {
+        "controlElement": [
+            {
+                "id": 28,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 1,
+                "controlElementValue": "In store",
+                "controlGroup": "CHANNELELIGIBLE"
+            },
+            {
+                "id": 29,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 2,
+                "controlElementValue": "Online",
+                "controlGroup": "CHANNELELIGIBLE"
+            },
+            {
+                "id": 27,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 99,
+                "controlElementValue": "All",
+                "controlGroup": "CHANNELELIGIBLE"
+            }
+        ]
+    }
+}

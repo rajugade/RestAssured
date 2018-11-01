@@ -1,0 +1,79 @@
+{  
+   "rewardOffer":{  
+      "offerHeader":{  
+         "division":76,
+         "programCode":"LTYMCY001",
+         "desc":"spend $100,Earn 20 points",
+         "channelEligible":"All",
+         "effectiveDate":"2017-11-23T00:00:00.000",
+         "expirationDate":"2017-11-30T23:59:00.000",
+         "offerStatus":"DRAFT",
+         "campaignId":"LTYMCY001",
+         "campaignDescription":"spend $100,Earn 20 points",
+         "createdBy":"WBT_User"
+      },
+      "offerReward":{  
+         "eventType":"PICK YOUR DAY",
+         "offerType":"1",
+         "offerFrequency":1,
+         "tierName":["Gold"],
+         "tenderType":[  
+            "MCC"
+         ],
+         "priceStatus":[  
+            "First markdown"
+         ],
+         "psc":"NA",
+         "offerRank":"2",
+         "employeeExclusion":0,
+         "fixedOfferCombinable":0,
+         "isIncremental":false,
+         "incrementalAmount":""
+      },
+      "stores":{  
+         "store":[  
+
+         ]
+      },
+      "productGroup":{  
+         "recordGroup":"1",
+         "groupItemCount":1,
+         "product":[  
+            {  
+               "dept":808,
+               "gmmID":1,
+               "productDivision":1
+            },
+            {  
+               "dept":801,
+               "gmmID":1,
+               "productDivision":1
+            },
+            {  
+               "dept":823,
+               "gmmID":2,
+               "productDivision":2
+            },
+            {  
+               "dept":835,
+               "gmmID":2,
+               "productDivision":2
+            },
+            {  
+               "dept":825,
+               "gmmID":2,
+               "productDivision":2
+            }
+         ]
+      },
+      "deferredPoint":0,
+      "offerRewardDetail":{  
+         "txnSpendMin":"",
+         "txnSpendMax":"",
+         "deptSpendMin":"",
+         "deptSpendMax":"",
+         "multiplier":2,
+         "points":""
+      }
+   }
+}

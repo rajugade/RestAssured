@@ -1,0 +1,93 @@
+{  
+   "rewardOffer":{  
+      "offerHeader":{  
+         "division":72,
+         "programCode":"LTYMCY001",
+         "desc":"spend $100,Earn 20 points",
+         "channelEligible":"In store",
+         "effectiveDate":"2017-11-29T00:00:00.000",
+         "expirationDate":"2017-12-29T23:59:00.000",
+         "offerStatus":"DRAFT",
+         "campaignId":"LTYMCY001",
+         "campaignDescription":"spend $100,Earn 20 points",
+         "createdBy":"WBT_User"
+      },
+      "offerReward":{  
+         "eventType":"PICK YOUR DAY",
+         "offerType":"3",
+         "offerFrequency":1,
+         "tierName":["All"],
+         "tenderType":[  
+            "MCC"
+         ],
+         "priceStatus":[  
+            "Active at Reg price",
+            "First markdown",
+            "Second markdown",
+            "Third markdown",
+            "Final Liquidation",
+            "Salvage",
+            "Job out",
+            "Permanent markdown"
+         ],
+         "psc":"NA",
+         "offerRank":"3",
+         "employeeExclusion":1,
+         "fixedOfferCombinable":0,
+         "isIncremental":false,
+         "incrementalAmount":""
+      },
+      "stores":{  
+         "store":[  
+            {  
+               "region":"00001",
+               "subRegion":"00030",
+               "district":"00031",
+               "store":"00005"
+            },
+            {  
+               "region":"00001",
+               "subRegion":"00030",
+               "district":"00031",
+               "store":"00006"
+            },
+            {  
+               "region":"00001",
+               "subRegion":"00030",
+               "district":"00031",
+               "store":"00037"
+            }
+         ]
+      },
+      "productGroup":{  
+         "recordGroup":"1",
+         "groupItemCount":1,
+         "product":[  
+            {  
+               "dept":823,
+               "gmmID":10,
+               "productDivision":81
+            },
+            {  
+               "dept":426,
+               "gmmID":3,
+               "productDivision":13
+            },
+            {  
+               "dept":411,
+               "gmmID":3,
+               "productDivision":13
+            }
+         ]
+      },
+      "deferredPoint":0,
+      "offerRewardDetail":{  
+         "txnSpendMin":"",
+         "txnSpendMax":"",
+         "deptSpendMin":100,
+         "deptSpendMax":"",
+         "multiplier":5,
+         "points":""
+      }
+   }
+}

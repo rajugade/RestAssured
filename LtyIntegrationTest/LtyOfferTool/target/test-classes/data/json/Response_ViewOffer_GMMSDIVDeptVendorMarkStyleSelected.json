@@ -1,0 +1,122 @@
+{
+	"rewardOffer": {
+		"offerHeader": {
+			"offerCode": "MCY10011001",
+			"division": "71",
+			"programCode": "LTYMCY001",
+			"desc": "spend $100,Earn 20 points",
+			"channelEligible": "All",
+			"effectiveDate": "2017-11-13T12:00:00.000",
+			"expirationDate": "2017-11-29T11:59:00.000",
+			"offerStatus": "DRAFT",
+			"createdBy": "WBT_User",
+			"campaignId": "LTYMCY001",
+			"campaignDescription": "spend $100,Earn 20 points"
+		},
+		"offerReward": {
+			"eventType": "GENERIC",
+			"eventName": "Test123",
+			"offerType": "3",
+			"validInDays": 0,
+			"offerFrequency": 1,
+			"tierName": ["Silver"],
+			"tenderType": [
+				"MCC"
+			],
+			"priceStatus": [
+				"Active at Reg price",
+				"First markdown",
+				"Second markdown",
+				"Third markdown",
+				"Final Liguidation",
+				"Salvage",
+				"Job out",
+				"Permanent markdown"
+			],
+			"offerRank": 4,
+			"employeeExclusion": false,
+			"fixedOfferCombinable": false,
+			"isIncremental":false,
+            "isPowerPoint":false,
+			"psc": "dvms"
+		},
+		"stores": {
+			"store": []
+		},
+		"productGroup": {
+			"recordGroup": 1,
+			"groupItemCount": 1,
+			"product": [
+				{
+					"dept": 325,
+					"vendor": 81,
+					"markStyle": 3,
+					"gmmID": 4,
+					"productDivision": 38
+				},
+				{
+					"dept": 325,
+					"vendor": 81,
+					"markStyle": 103,
+					"gmmID": 4,
+					"productDivision": 38
+				},
+				{
+					"dept": 325,
+					"vendor": 81,
+					"markStyle": 613,
+					"gmmID": 4,
+					"productDivision": 38
+				},
+				{
+					"dept": 642,
+					"vendor": 4,
+					"markStyle": 70022,
+					"gmmID": 47,
+					"productDivision": 83
+				},
+				{
+					"dept": 642,
+					"vendor": 4,
+					"markStyle": 70031,
+					"gmmID": 47,
+					"productDivision": 83
+				},
+				{
+					"dept": 642,
+					"vendor": 4,
+					"markStyle": 70041,
+					"gmmID": 47,
+					"productDivision": 83
+				},
+				{
+					"dept": 642,
+					"vendor": 10,
+					"markStyle": 99000,
+					"gmmID": 47,
+					"productDivision": 83
+				},
+				{
+					"dept": 921,
+					"vendor": 22,
+					"gmmID": 91,
+					"productDivision": 62
+				},
+				{
+					"dept": 921,
+					"vendor": 23,
+					"gmmID": 91,
+					"productDivision": 62
+				}
+			]
+		},
+		"offerRewardDetail": {
+			"multiplier": 2,
+			"deptSpendMin": 100
+		},
+		"notes": {
+			"note": []
+		},
+		"deferredPoint": false
+	}
+}

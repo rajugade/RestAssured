@@ -1,0 +1,38 @@
+{
+    "controlElements": {
+        "controlElement": [
+            {
+                "id": 3,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 1,
+                "controlElementValue": "Platinum",
+                "controlGroup": "TIERLEVEL"
+            },
+            {
+                "id": 4,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 2,
+                "controlElementValue": "Gold",
+                "controlGroup": "TIERLEVEL"
+            },
+            {
+                "id": 5,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 3,
+                "controlElementValue": "Silver",
+                "controlGroup": "TIERLEVEL"
+            },
+            {
+                "id": 204,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 99,
+                "controlElementValue": "ALL",
+                "controlGroup": "TIERLEVEL"
+            }
+        ]
+    }
+}

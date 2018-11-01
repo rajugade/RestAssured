@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:pres="http://www.tibco.com/schemas/MacysLTY_TestBed/PresaleIssuanceReq" xmlns:com="http://internal.loyalty.macys.com/schema/v1_0/common">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <pres:PresaleIssuanceReq>
+         <pres:STT>
+            <store>10</store>
+            <term>22</term>
+            <date>DynamicTimeStamp</date>
+            <salesTranNum>prevStt</salesTranNum>
+         </pres:STT>
+         <com:Division>71</com:Division>
+      </pres:PresaleIssuanceReq>
+   </soapenv:Body>
+</soapenv:Envelope>

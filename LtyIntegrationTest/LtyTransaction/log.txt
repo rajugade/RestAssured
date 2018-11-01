@@ -1,0 +1,280 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for loyalty:LtyIntegrationTest-LtyTransaction:jar:1.0.0-SNAPSHOT
+[WARNING] The expression ${artifactId} is deprecated. Please use ${project.artifactId} instead.
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building LtyIntegrationTest-LtyTransaction 1.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] Downloading: http://artifacts.devops.fds.com/public-snapshots/loyalty/LtyIntegrationTest-LtyCommon/1.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] Downloading: http://artifacts.devops.fds.com/public-snapshots/loyalty/LtyIntegrationTest/1.0.0-SNAPSHOT/maven-metadata.xml
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ LtyIntegrationTest-LtyTransaction ---
+[INFO] Deleting F:\GitLab\loyalty-integration-test\LtyIntegrationTest\LtyTransaction\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ LtyIntegrationTest-LtyTransaction ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory F:\GitLab\loyalty-integration-test\LtyIntegrationTest\LtyTransaction\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ LtyIntegrationTest-LtyTransaction ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ LtyIntegrationTest-LtyTransaction ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ LtyIntegrationTest-LtyTransaction ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to F:\GitLab\loyalty-integration-test\LtyIntegrationTest\LtyTransaction\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ LtyIntegrationTest-LtyTransaction ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.macys.marketing.loyalty.LtyIntegrationTest.runner.TestRunnerTest
+#language: en
+Feature: loyalty transaction scenarios
+TR=2017-12-01 15:23:21,025|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.wrapper.LtyTransactionWrapper|Start of method :: lookupOfferInfo
+TR=2017-12-01 15:23:21,045|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|*********invokeService is starting*********
+TR=2017-12-01 15:23:21,046|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|Final uri:::::: /Loyalty/Services/Transaction/LTY_Transaction_v12
+TR=2017-12-01 15:23:21,046|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|Headers Map:::::: {SOAPAction=/LtyProcessTran, content-type=text/xml, accept=text/xml}
+TR=2017-12-01 15:23:21,046|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|**********Request file name********** Request_LTYTransaction_Scenario1.xml
+TR=2017-12-01 15:23:21,046|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|*********getRequestBody starting**************
+TR=2017-12-01 15:23:21,050|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|*********getRequestBody ending**************
+TR=2017-12-01 15:23:21,050|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|**********updateDynamicRequestBody starting**********
+TR=2017-12-01 15:23:21,050|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|**********updateDynamicRequestBody ending**********<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ent="http://www.macys.com/enterprise_services" xmlns:v12="http://loyalty.macys.com/schemas/loyalty.transaction/LtyTransactionRequest/v12_0" xmlns:v121="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">
+   <soapenv:Header>
+      <ent:requestor_info>
+         <version>12</version>
+         <client_id>Stores</client_id>
+         <subclient_id>SPOS</subclient_id>
+      </ent:requestor_info>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v12:LtyTransactionReq>
+         <v121:CommunicationHeader>
+            <v121:Division>71</v121:Division>
+            <v121:SourceApp>SPOS</v121:SourceApp>
+            <v121:DeviceId>0002</v121:DeviceId>
+            <v121:DeviceType>IPAD</v121:DeviceType>
+            <v121:DeviceChannel>SPOS</v121:DeviceChannel>
+            <v121:Stt>
+               <v121:Date>2017-10-16</v121:Date>
+               <v121:Store>622</v121:Store>
+               <v121:RegisterNum>01</v121:RegisterNum>
+               <v121:SalesTransNum>8334</v121:SalesTransNum>
+               <v121:Division>71</v121:Division>
+            </v121:Stt>
+            <v121:ReservationNumber>123002</v121:ReservationNumber>
+            <v121:AssociateId>10002</v121:AssociateId>
+            <v121:LTYVersion>12</v121:LTYVersion>
+         </v121:CommunicationHeader>
+         <v121:CustomerIdentifier>
+            <v121:AccountType>L</v121:AccountType>
+            <v121:AccountNumber>L920002888840</v121:AccountNumber>
+         </v121:CustomerIdentifier>
+         <v12:TransactionHeader>
+            <v121:AddedByApp>SPOS</v121:AddedByApp>
+            <v121:FulfillmentChannel>SPOS</v121:FulfillmentChannel>
+            <v121:TransactionType>PURCHASE</v121:TransactionType>
+            <v121:AssociateId>0002</v121:AssociateId>
+            <v12:SttInfo>
+               <v121:Date>2017-10-16</v121:Date>
+               <v121:Store>622</v121:Store>
+               <v121:RegisterNum>01</v121:RegisterNum>
+               <v121:SalesTransNum>8334</v121:SalesTransNum>
+               <v121:Division>71</v121:Division>
+            </v12:SttInfo>
+            <v12:OrderTimestamp>2017-10-16T12:00:00</v12:OrderTimestamp>
+            <v12:ProcessTimestamp>2017-10-16T12:00:00</v12:ProcessTimestamp>
+            <v12:OfflineRetryFlag>1</v12:OfflineRetryFlag>
+         </v12:TransactionHeader>
+         <v12:Tender>
+            <v121:Type>63</v121:Type>
+            <v121:ReferenceId>6035920002888840</v121:ReferenceId>
+            <v121:Amt>700</v121:Amt>
+         </v12:Tender>
+         <v12:LineItem>
+            <v121:SeqNum>1</v121:SeqNum>
+            <v121:ItemOperationType>PURCHASE</v121:ItemOperationType>
+            <v121:Division>71</v121:Division>
+            <v121:Dept>345</v121:Dept>
+            <v121:Class>06</v121:Class>
+            <v121:PriceStatus>1</v121:PriceStatus>
+            <v121:OriginalRetailPrice>300</v121:OriginalRetailPrice>
+            <v121:PriceSold>300</v121:PriceSold>
+            <v121:Quantity>1</v121:Quantity>
+            <v121:RegistryNum>01</v121:RegistryNum>
+         </v12:LineItem>
+         <v12:LineItem>
+            <v121:SeqNum>2</v121:SeqNum>
+            <v121:ItemOperationType>PURCHASE</v121:ItemOperationType>
+            <v121:Division>71</v121:Division>
+            <v121:Dept>345</v121:Dept>
+            <v121:Class>06</v121:Class>
+            <v121:PriceStatus>1</v121:PriceStatus>
+            <v121:OriginalRetailPrice>400</v121:OriginalRetailPrice>
+            <v121:PriceSold>400</v121:PriceSold>
+            <v121:Quantity>1</v121:Quantity>
+            <v121:RegistryNum>01</v121:RegistryNum>
+         </v12:LineItem>
+      </v12:LtyTransactionReq>
+   </soapenv:Body>
+</soapenv:Envelope>
+TR=2017-12-01 15:23:21,052|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|**********Final Final API:::********** https://ltyservicestest:10674/Loyalty/Services/Transaction/LTY_Transaction_v12
+TR=2017-12-01 15:23:21,747|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|builder:::::::::: io.restassured.builder.RequestSpecBuilder@62679465
+TR=2017-12-01 15:23:21,835|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|*********invokeActualRestMethod is starting: requestMethod::*********POST
+Request method:	POST
+Request URI:	https://ltyservicestest:10674/Loyalty/Services/Transaction/LTY_Transaction_v12
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		SOAPAction=/LtyProcessTran
+				accept=text/xml
+				Content-Type=text/xml; charset=ISO-8859-1
+Cookies:		<none>
+Body:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ent="http://www.macys.com/enterprise_services" xmlns:v12="http://loyalty.macys.com/schemas/loyalty.transaction/LtyTransactionRequest/v12_0" xmlns:v121="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">
+  <soapenv:Header>
+    <ent:requestor_info>
+      <version>12</version>
+      <client_id>Stores</client_id>
+      <subclient_id>SPOS</subclient_id>
+    </ent:requestor_info>
+  </soapenv:Header>
+  <soapenv:Body>
+    <v12:LtyTransactionReq>
+      <v121:CommunicationHeader>
+        <v121:Division>71</v121:Division>
+        <v121:SourceApp>SPOS</v121:SourceApp>
+        <v121:DeviceId>0002</v121:DeviceId>
+        <v121:DeviceType>IPAD</v121:DeviceType>
+        <v121:DeviceChannel>SPOS</v121:DeviceChannel>
+        <v121:Stt>
+          <v121:Date>2017-10-16</v121:Date>
+          <v121:Store>622</v121:Store>
+          <v121:RegisterNum>01</v121:RegisterNum>
+          <v121:SalesTransNum>8334</v121:SalesTransNum>
+          <v121:Division>71</v121:Division>
+        </v121:Stt>
+        <v121:ReservationNumber>123002</v121:ReservationNumber>
+        <v121:AssociateId>10002</v121:AssociateId>
+        <v121:LTYVersion>12</v121:LTYVersion>
+      </v121:CommunicationHeader>
+      <v121:CustomerIdentifier>
+        <v121:AccountType>L</v121:AccountType>
+        <v121:AccountNumber>L920002888840</v121:AccountNumber>
+      </v121:CustomerIdentifier>
+      <v12:TransactionHeader>
+        <v121:AddedByApp>SPOS</v121:AddedByApp>
+        <v121:FulfillmentChannel>SPOS</v121:FulfillmentChannel>
+        <v121:TransactionType>PURCHASE</v121:TransactionType>
+        <v121:AssociateId>0002</v121:AssociateId>
+        <v12:SttInfo>
+          <v121:Date>2017-10-16</v121:Date>
+          <v121:Store>622</v121:Store>
+          <v121:RegisterNum>01</v121:RegisterNum>
+          <v121:SalesTransNum>8334</v121:SalesTransNum>
+          <v121:Division>71</v121:Division>
+        </v12:SttInfo>
+        <v12:OrderTimestamp>2017-10-16T12:00:00</v12:OrderTimestamp>
+        <v12:ProcessTimestamp>2017-10-16T12:00:00</v12:ProcessTimestamp>
+        <v12:OfflineRetryFlag>1</v12:OfflineRetryFlag>
+      </v12:TransactionHeader>
+      <v12:Tender>
+        <v121:Type>63</v121:Type>
+        <v121:ReferenceId>6035920002888840</v121:ReferenceId>
+        <v121:Amt>700</v121:Amt>
+      </v12:Tender>
+      <v12:LineItem>
+        <v121:SeqNum>1</v121:SeqNum>
+        <v121:ItemOperationType>PURCHASE</v121:ItemOperationType>
+        <v121:Division>71</v121:Division>
+        <v121:Dept>345</v121:Dept>
+        <v121:Class>06</v121:Class>
+        <v121:PriceStatus>1</v121:PriceStatus>
+        <v121:OriginalRetailPrice>300</v121:OriginalRetailPrice>
+        <v121:PriceSold>300</v121:PriceSold>
+        <v121:Quantity>1</v121:Quantity>
+        <v121:RegistryNum>01</v121:RegistryNum>
+      </v12:LineItem>
+      <v12:LineItem>
+        <v121:SeqNum>2</v121:SeqNum>
+        <v121:ItemOperationType>PURCHASE</v121:ItemOperationType>
+        <v121:Division>71</v121:Division>
+        <v121:Dept>345</v121:Dept>
+        <v121:Class>06</v121:Class>
+        <v121:PriceStatus>1</v121:PriceStatus>
+        <v121:OriginalRetailPrice>400</v121:OriginalRetailPrice>
+        <v121:PriceSold>400</v121:PriceSold>
+        <v121:Quantity>1</v121:Quantity>
+        <v121:RegistryNum>01</v121:RegistryNum>
+      </v12:LineItem>
+    </v12:LtyTransactionReq>
+  </soapenv:Body>
+</soapenv:Envelope>
+TR=2017-12-01 15:23:29,618|ERROR|com.macys.marketing.loyalty.LtyIntegrationTest.wrapper.LtyTransactionWrapper|Given Input requestFile/Response File Does not exist.
+
+  Scenario: Verify lookUp Offer [90m# features/LtyTransaction/LoyaltyTransactionScenarios.feature:5[0m
+    [31mGiven [0m[31mI Perform Transaction[0m [90m# LtyTransactionSteps.i_Perform_Transaction(DataTable)[0m
+      [31mjava.lang.RuntimeException
+      	at com.macys.marketing.loyalty.LtyIntegrationTest.wrapper.LtyTransactionWrapper.ltyTransaction(LtyTransactionWrapper.java:111)
+      	at com.macys.marketing.loyalty.LtyIntegrationTest.steps.ltyTransaction.LtyTransactionSteps.i_Perform_Transaction(LtyTransactionSteps.java:14)
+      	at ?.Given I Perform Transaction(features/LtyTransaction/LoyaltyTransactionScenarios.feature:6)
+      [0m
+
+[31mFailed scenarios:[0m
+[31mfeatures/LtyTransaction/LoyaltyTransactionScenarios.feature:5 [0m# Scenario: Verify lookUp Offer
+
+1 Scenarios ([31m1 failed[0m)
+1 Steps ([31m1 failed[0m)
+0m8.888s
+
+java.lang.RuntimeException
+	at com.macys.marketing.loyalty.LtyIntegrationTest.wrapper.LtyTransactionWrapper.ltyTransaction(LtyTransactionWrapper.java:111)
+	at com.macys.marketing.loyalty.LtyIntegrationTest.steps.ltyTransaction.LtyTransactionSteps.i_Perform_Transaction(LtyTransactionSteps.java:14)
+	at ?.Given I Perform Transaction(features/LtyTransaction/LoyaltyTransactionScenarios.feature:6)
+
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 9.42 sec <<< FAILURE! - in com.macys.marketing.loyalty.LtyIntegrationTest.runner.TestRunnerTest
+Given I Perform Transaction(Scenario: Verify lookUp Offer)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.RuntimeException
+
+Scenario: Verify lookUp Offer  Time elapsed: 0 sec  <<< ERROR!
+java.lang.RuntimeException
+
+
+Results :
+
+Tests in error: 
+  null
+  null
+
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 21.843 s
+[INFO] Finished at: 2017-12-01T15:23:30+05:30
+[INFO] Final Memory: 36M/300M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test (default-test) on project LtyIntegrationTest-LtyTransaction: There are test failures.
+[ERROR] 
+[ERROR] Please refer to F:\GitLab\loyalty-integration-test\LtyIntegrationTest\LtyTransaction\target\surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

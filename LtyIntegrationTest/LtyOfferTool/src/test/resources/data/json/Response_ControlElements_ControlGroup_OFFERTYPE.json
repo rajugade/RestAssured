@@ -1,0 +1,132 @@
+{
+    "controlElements": {
+        "controlElement": [
+            {
+                "id": 21,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 1,
+                "controlElementValue": "Multiplier for any purchase get Xx points after any purchase",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "MULTIPLIER"
+            },
+            {
+                "id": 22,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 2,
+                "controlElementValue": "Multiplier for Transaction Spend: Get Xx Points after $Y spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "MULTIPLIER"
+            },
+            {
+                "id": 23,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 3,
+                "controlElementValue": "Multiplier for Product Spend: Get Xx Points $Y product spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "MULTIPLIER"
+            },
+            {
+                "id": 24,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 4,
+                "controlElementValue": "Fixed Points for any Purchase : Get X points after any purchase",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 25,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 5,
+                "controlElementValue": "Fixed Points for Transaction Spend: Get X points after $ Y spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 26,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 6,
+                "controlElementValue": "Fixed Points for Product Spend:Get X points for $Y product spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 133,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 7,
+                "controlElementValue": "Fixed incremental points for every purchase of $XX (no product)",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 137,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 8,
+                "controlElementValue": "Fixed incremental points for every purchase of $XX product spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 194,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 12,
+                "controlElementValue": "PPD : get x points per $ after any purchase",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "PULSE"
+            },
+            {
+                "id": 182,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 9,
+                "controlElementValue": "Fixed for non-transactional behavior (no purchase required)",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 186,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 10,
+                "controlElementValue": "Fixed for non-transactional behavior (purchase required)",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "FIXED"
+            },
+            {
+                "id": 190,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 11,
+                "controlElementValue": "Multiplier for non-transactional behavior (purchase required)",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "MULTIPLIER"
+            },
+            {
+                "id": 195,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 13,
+                "controlElementValue": "PPD : get x points per $ after $Y spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "PULSE"
+            },
+            {
+                "id": 196,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 14,
+                "controlElementValue": "PPD : get x points per $ after $Y product spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "PULSE"
+            }
+        ]
+    }
+}

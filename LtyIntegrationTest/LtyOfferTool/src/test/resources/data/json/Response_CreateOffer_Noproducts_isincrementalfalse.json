@@ -1,0 +1,59 @@
+{
+    "rewardOffer": {
+        "offerHeader": {
+            "offerCode": "MCY10010348",
+            "division": "71",
+            "programCode": "LTYMCY001",
+            "desc": "spend $100,Earn 20 points",
+            "channelEligible": "All",
+            "effectiveDate": "2017-11-23T00:00:00.000",
+            "expirationDate": "2017-11-30T23:59:00.000",
+            "offerStatus": "DRAFT",
+            "createdBy": "WBT_User",
+            "campaignId": "LTYMCY001",
+            "campaignDescription": "spend $100,Earn 20 points"
+        },
+        "offerReward": {
+            "eventType": "GENERIC",
+            "eventName": "Test123",
+            "offerType": "7",
+            "validInDays": 0,
+            "offerFrequency": 1,
+            "tierName": ["Gold"],
+            "tenderType": [
+                "MCC"
+            ],
+            "priceStatus": [
+                "Active at Reg price",
+                "Second markdown",
+                "Third markdown",
+                "Final Liquidation",
+                "Salvage",
+                "Job out",
+                "Permanent markdown"
+            ],
+            "offerRank": 2,
+            "employeeExclusion": true,
+            "fixedOfferCombinable": true,
+            "isIncremental": false,
+            "isPowerPoint": false,
+            "psc": "NA"
+        },
+        "stores": {
+            "store": []
+        },
+        "productGroup": {
+            "recordGroup": 0,
+            "groupItemCount": 0,
+            "product": []
+        },
+        "offerRewardDetail": {
+            "points": 20,
+            "txnSpendMin": 100
+        },
+        "notes": {
+            "note": []
+        },
+        "deferredPoint": false
+    }
+}

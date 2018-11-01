@@ -1,0 +1,16 @@
+[
+    {
+        "action": "Offer Created",
+        "previousStatus": "N/A",
+        "currentStatus": "DRAFT",
+        "userName": "WBT_USER",
+        "lastUpdateTs": "01 Feb 2018 12:20 PM"
+    },
+    {
+        "action": "Offer Updated",
+        "previousStatus": "DRAFT",
+        "currentStatus": "DRAFT",
+        "userName": "WBT_USER",
+        "lastUpdateTs": "01 Feb 2018 01:02 PM"
+    }
+]

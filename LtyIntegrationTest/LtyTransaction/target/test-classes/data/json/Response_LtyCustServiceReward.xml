@@ -1,0 +1,8 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Body>
+      <ns0:LtyCustServiceRewardResp xmlns:ns0="http://loyalty.macys.com/schemas/loyalty.transaction/LtyTransactionResponse/v12_0">
+         <ns1:ReturnCode xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">0</ns1:ReturnCode>
+         <ns1:Message xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">success</ns1:Message>
+      </ns0:LtyCustServiceRewardResp>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

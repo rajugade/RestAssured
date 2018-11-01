@@ -1,0 +1,74 @@
+{
+  "rewardOffer": {
+    "offerHeader": {
+      "id": 19203,
+      "offerCode": "MCY10019103",
+      "division": "71",
+      "programCode": "LTYMCY001",
+      "desc": "Test",
+      "channelEligible": "Online",
+      "effectiveDate": "2018-01-12T00:00:00.000",
+      "expirationDate": "2018-01-20T23:59:00.000",
+      "offerStatus": "DRAFT",
+      "createdBy": "WBT_User",
+      "createdTs": "2018-01-12T13:49:37.535",
+      "lastUpdateTs": "2018-01-12T13:49:37.535",
+      "campaignId": "Test",
+      "campaignDescription": "Test"
+    },
+    "offerReward": {
+      "eventType": "eventTypes",
+      "offerType": "offerTypeVal",
+      "validInDays": "validInDaysVal",
+      "offerFrequency": 1,
+      "tierName": [
+        "Gold"
+      ],
+      "tenderType": [
+        "MCC"
+      ],
+      "priceStatus": [
+        "Active at Reg price",
+        "First markdown",
+        "Second markdown",
+        "Third markdown",
+        "Final Liquidation",
+        "Salvage",
+        "Job out",
+        "Permanent markdown"
+      ],
+      "offerRank": 2,
+      "employeeExclusion": false,
+      "fixedOfferCombinable": false,
+      "isIncremental": false,
+      "isPowerPoint": false,
+      "triggerOfferEventPeriod": "triggerOfferEventPeriodVal",
+      "psc": "NA",
+      "isPickaday": false
+    },
+    "stores": {
+      "store": []
+    },
+    "productGroup": {
+      "recordGroup": 1,
+      "groupItemCount": 1,
+      "product": [
+        {
+          "gmmID": 4
+        }
+      ]
+    },
+    "offerRewardDetail": {
+         "txnSpendMin":"txnSpendMinVal",
+         "txnSpendMax":"txnSpendMaxVal",
+         "deptSpendMin":"deptSpendMinVal",
+         "deptSpendMax":"deptSpendMaxVal",
+         "multiplier":"multiplierVal",
+         "points":"pointsVal"
+    },
+    "notes": {
+      "note": []
+    },
+    "deferredPoint": false
+  }
+}

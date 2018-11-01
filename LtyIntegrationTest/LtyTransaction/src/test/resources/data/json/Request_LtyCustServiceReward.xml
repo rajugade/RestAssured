@@ -1,0 +1,34 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ent="http://www.macys.com/enterprise_services" xmlns:v12="http://loyalty.macys.com/schemas/loyalty.transaction/LtyTransactionRequest/v12_0" xmlns:v121="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">
+   <soapenv:Header>
+      <ent:requestor_info>
+         <!--Optional:-->
+         <version>12</version>
+         <client_id>Stores</client_id>
+         <subclient_id>SPOS</subclient_id>
+      </ent:requestor_info>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v12:LtyCustServiceRewardReq>
+         <v121:CommunicationHeader>
+            <v121:Division>71</v121:Division>
+            <v121:SourceApp>ICMCS</v121:SourceApp>
+            <v121:DeviceChannel>ICMCS</v121:DeviceChannel>
+            <v121:AssociateId>12345</v121:AssociateId>
+            <v121:LTYVersion>12</v121:LTYVersion>
+         </v121:CommunicationHeader>
+         <v121:CustomerIdentifier>
+            <v121:AccountType>L</v121:AccountType>
+            <v121:AccountNumber>DynamicAccountNumber</v121:AccountNumber>
+         </v121:CustomerIdentifier>
+         <v121:Division>71</v121:Division>
+         <v121:ProgramCode>LTYTFS001</v121:ProgramCode>
+         <v12:RewardAdjustment>
+            <v121:AdjustmentAmount>10</v121:AdjustmentAmount>
+            <v121:AdjustmentDate>DynamicDate</v121:AdjustmentDate>
+            <v121:AdjustmentDesc>Test adjustment</v121:AdjustmentDesc>
+         </v12:RewardAdjustment>
+         <v121:AssociateId>12345</v121:AssociateId>
+         <v121:AddedByApp>ICMCS</v121:AddedByApp>
+      </v12:LtyCustServiceRewardReq>
+   </soapenv:Body>
+</soapenv:Envelope>

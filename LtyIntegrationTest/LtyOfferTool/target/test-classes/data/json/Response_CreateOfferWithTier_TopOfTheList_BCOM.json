@@ -1,0 +1,76 @@
+{  
+   "rewardOffer":{  
+      "offerHeader":{  
+         "offerCode":"BLM10013819",
+         "division":"72",
+         "programCode":"LTYMCY001",
+         "desc":"spend $100,Earn 20 points",
+         "channelEligible":"In store",
+         "effectiveDate":"2017-12-11T00:00:00.000",
+         "expirationDate":"2017-12-31T23:59:00.000",
+         "offerStatus":"DRAFT",
+         "createdBy":"WBT_User",
+         "campaignId":"LTYMCY001",
+         "campaignDescription":"spend $100,Earn 20 points"
+      },
+      "offerReward":{  
+         "eventType":"PICK YOUR DAY",
+         "eventName":"Test123",
+         "offerType":"1",
+         "validInDays":0,
+         "offerFrequency":1,
+         "tierName":[  
+            "Top of the List"
+         ],
+         "tenderType":[  
+            "MCC"
+         ],
+         "priceStatus":[  
+            "Active at Reg price",
+            "First markdown",
+            "Second markdown",
+            "Third markdown",
+            "Final Liquidation",
+            "Salvage",
+            "Job out",
+            "Permanent markdown"
+         ],
+         "offerRank":2,
+         "employeeExclusion":false,
+         "fixedOfferCombinable":false,
+         "isIncremental":false,
+         "isPowerPoint":false,
+         "psc":"dcls",
+         "isPickaday":true
+      },
+      "stores":{  
+         "store":[  
+            {  
+               "region":"00001",
+               "subRegion":"00010"
+            }
+         ]
+      },
+      "productGroup":{  
+         "recordGroup":1,
+         "groupItemCount":1,
+         "product":[  
+            {  
+               "gmmID":1
+            },
+            {  
+               "gmmID":10
+            }
+         ]
+      },
+      "offerRewardDetail":{  
+         "multiplier":10.0
+      },
+      "notes":{  
+         "note":[  
+
+         ]
+      },
+      "deferredPoint":false
+   }
+}

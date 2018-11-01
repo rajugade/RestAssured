@@ -1,0 +1,93 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Body>
+    <ns0:CusLookupResp xmlns:ns0="http://loyalty.macys.com/schemas/loyalty.customer/CusResponse/v11_0">
+      <ns0:CusResp>
+        <ns1:ReturnCode xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0">0</ns1:ReturnCode>
+        <ns1:Message xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0">Customer Look Up Successful</ns1:Message>
+      </ns0:CusResp>
+      <ns0:Customer>
+        <ns0:AcctProgramInfo>
+          <ns0:ProgramCode>LTYUSL001</ns0:ProgramCode>
+          <ns0:IsProgramActive>true</ns0:IsProgramActive>
+          <ns0:IsEnrolled>false</ns0:IsEnrolled>
+          <ns0:isEligible>true</ns0:isEligible>
+          <ns0:RewardCurrency>POINT</ns0:RewardCurrency>
+        </ns0:AcctProgramInfo>
+        <ns0:AcctProgramInfo>
+          <ns0:ProgramCode>LTYTFS001</ns0:ProgramCode>
+          <ns0:ProgramYear>2018</ns0:ProgramYear>
+          <ns0:IsProgramActive>true</ns0:IsProgramActive>
+          <ns0:IsEnrolled>true</ns0:IsEnrolled>
+          <ns0:isEligible>false</ns0:isEligible>
+          <ns0:PriorEnroll>false</ns0:PriorEnroll>
+          <ns0:EnrollmentDate>2018-01-09</ns0:EnrollmentDate>
+          <ns0:RewardCurrency>USD</ns0:RewardCurrency>
+        </ns0:AcctProgramInfo>
+        <ns0:AcctProgramInfo>
+          <ns0:ProgramCode>LTYMCY001</ns0:ProgramCode>
+          <ns0:IsProgramActive>true</ns0:IsProgramActive>
+          <ns0:IsEnrolled>true</ns0:IsEnrolled>
+          <ns0:isEligible>false</ns0:isEligible>
+          <ns0:EnrollmentDate>2018-01-09</ns0:EnrollmentDate>
+          <ns0:TierName>SILVER</ns0:TierName>
+          <ns0:RewardCurrency>POINT</ns0:RewardCurrency>
+          <ns0:RewardThresholdForAward>1000.0</ns0:RewardThresholdForAward>
+          <ns0:ProgramAwardValue>10</ns0:ProgramAwardValue>
+        </ns0:AcctProgramInfo>
+        <ns1:CusAccountStatusInfo xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.customer/CusCommon/v11_0">
+          <ns1:AccountStatus>A</ns1:AccountStatus>
+          <ns1:AccountStatusReason>0</ns1:AccountStatusReason>
+        </ns1:CusAccountStatusInfo>
+        <ns1:CusInfo xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.customer/CusCommon/v11_0">
+          <ns1:CustomerIdentifier>
+            <ns1:AccountType>L</ns1:AccountType>
+            <ns1:AccountNumber EncryptionFlag="false">L920002894470</ns1:AccountNumber>
+          </ns1:CustomerIdentifier>
+          <ns1:CustomerIdentifier>
+            <ns1:AccountType>A</ns1:AccountType>
+            <ns1:AccountNumber EncryptionFlag="false">377481711858381</ns1:AccountNumber>
+          </ns1:CustomerIdentifier>
+          <ns1:NameDetails>
+            <ns1:NameFirst>WBTFIRST</ns1:NameFirst>
+            <ns1:NameLast>WBTLAST</ns1:NameLast>
+            <ns1:NameMidl>WBTEST</ns1:NameMidl>
+          </ns1:NameDetails>
+          <ns1:AddressDetails>
+            <ns1:AddressLine1>4000 JOHNS CREEK CT</ns1:AddressLine1>
+            <ns1:City>JOHNS CREEK</ns1:City>
+            <ns1:StateCd>GA</ns1:StateCd>
+            <ns1:PostalCd>30024</ns1:PostalCd>
+            <ns1:CountryCd>US</ns1:CountryCd>
+          </ns1:AddressDetails>
+          <ns1:Phone>209-773-5551</ns1:Phone>
+          <ns1:Email>WBT872812@GMAIL.COM</ns1:Email>
+          <ns1:DOBDetails>
+            <ns1:Month>1</ns1:Month>
+            <ns1:Day>1</ns1:Day>
+            <ns1:Year>1987</ns1:Year>
+          </ns1:DOBDetails>
+          <ns2:Channel xmlns:ns2="http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0">SPOS</ns2:Channel>
+          <ns1:EmployeeFlag>false</ns1:EmployeeFlag>
+          <ns1:Division>71</ns1:Division>
+        </ns1:CusInfo>
+        <ns0:ValidForUse>true</ns0:ValidForUse>
+        <ns0:Notification>
+          <ns0:Name>USL_ENROLL</ns0:Name>
+          <ns0:Value>false</ns0:Value>
+        </ns0:Notification>
+        <ns0:Notification>
+          <ns0:Name>MISSING_INFO</ns0:Name>
+          <ns0:Value>false</ns0:Value>
+        </ns0:Notification>
+        <ns0:Notification>
+          <ns0:Name>FIRST_USE</ns0:Name>
+          <ns0:Value>false</ns0:Value>
+        </ns0:Notification>
+        <ns0:Notification>
+          <ns0:Name>TFS_EVENT_NAME</ns0:Name>
+          <ns0:Value>SPRING</ns0:Value>
+        </ns0:Notification>
+      </ns0:Customer>
+    </ns0:CusLookupResp>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ent="http://www.macys.com/enterprise_services" xmlns:v11="http://loyalty.macys.com/schemas/loyalty.customer/CusRequest/v11_0" xmlns:v111="http://loyalty.macys.com/schemas/loyalty.customer/CusCommon/v11_0" xmlns:v112="http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0">
+   <soapenv:Header>
+      <ent:requestor_info>
+         <!--Optional:-->
+         <version>?</version>
+         <client_id>Stores</client_id>
+         <subclient_id>SPOS</subclient_id>
+      </ent:requestor_info>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v11:CusLookupByPhoneReq>
+         <v111:Phone>209-888-1664</v111:Phone>
+         <v112:Channel>SPOS</v112:Channel>
+         <v112:Division>71</v112:Division>
+         <v112:AssociateId>12345</v112:AssociateId>
+      </v11:CusLookupByPhoneReq>
+   </soapenv:Body>
+</soapenv:Envelope>

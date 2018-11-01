@@ -1,0 +1,15 @@
+{
+    "controlElements": {
+        "controlElement": [
+            {
+                "id": 22,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 2,
+                "controlElementValue": "Multiplier for Transaction Spend: Get Xx Points after $Y spend",
+                "controlGroup": "OFFERTYPE",
+                "ltyControlGroup": "MULTIPLIER"
+            }
+        ]
+    }
+}

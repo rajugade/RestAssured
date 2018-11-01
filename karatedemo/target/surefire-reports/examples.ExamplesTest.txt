@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+Test set: examples.ExamplesTest
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 0, Errors: 2, Skipped: 8, Time elapsed: 4.668 sec <<< FAILURE!
+* def response = read('Response.json')(Scenario: get all users and then get the first user by id)  Time elapsed: 0.004 sec  <<< ERROR!
+com.intuit.karate.exception.KarateFileNotFoundException: could not find or read file: Response.json, prefix: NONE
+	at com.intuit.karate.FileUtils.readFileAsString(FileUtils.java:126)
+	at com.intuit.karate.FileUtils.readFile(FileUtils.java:99)
+	at com.intuit.karate.ScriptBridge.read(ScriptBridge.java:69)
+	at jdk.nashorn.internal.scripts.Script$Recompilation$2$14A$\^eval\_.L:1(<eval>:1)
+	at jdk.nashorn.internal.scripts.Script$8$\^eval\_.:program(<eval>:1)
+	at jdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:637)
+	at jdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:494)
+	at jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:393)
+	at jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:449)
+	at jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:406)
+	at jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:402)
+	at jdk.nashorn.api.scripting.NashornScriptEngine.eval(NashornScriptEngine.java:155)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at com.intuit.karate.ScriptBindings.eval(ScriptBindings.java:139)
+	at com.intuit.karate.ScriptBindings.updateBindingsAndEval(ScriptBindings.java:134)
+	at com.intuit.karate.ScriptBindings.evalInNashorn(ScriptBindings.java:119)
+	at com.intuit.karate.Script.evalJsExpression(Script.java:371)
+	at com.intuit.karate.Script.evalKarateExpression(Script.java:285)
+	at com.intuit.karate.Script.evalKarateExpression(Script.java:171)
+	at com.intuit.karate.Script.assign(Script.java:601)
+	at com.intuit.karate.Script.assign(Script.java:527)
+	at com.intuit.karate.StepDefs.def(StepDefs.java:309)
+	at ?.* def response = read('Response.json')(C:\Users\rgade\RestAssured\karatedemo\target\test-classes\examples\users\users.feature:15)
+
+Scenario: get all users and then get the first user by id  Time elapsed: 0.005 sec  <<< ERROR!
+com.intuit.karate.exception.KarateFileNotFoundException: could not find or read file: Response.json, prefix: NONE
+	at com.intuit.karate.FileUtils.readFileAsString(FileUtils.java:126)
+	at com.intuit.karate.FileUtils.readFile(FileUtils.java:99)
+	at com.intuit.karate.ScriptBridge.read(ScriptBridge.java:69)
+	at jdk.nashorn.internal.scripts.Script$Recompilation$2$14A$\^eval\_.L:1(<eval>:1)
+	at jdk.nashorn.internal.scripts.Script$8$\^eval\_.:program(<eval>:1)
+	at jdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:637)
+	at jdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:494)
+	at jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:393)
+	at jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:449)
+	at jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:406)
+	at jdk.nashorn.api.scripting.NashornScriptEngine.evalImpl(NashornScriptEngine.java:402)
+	at jdk.nashorn.api.scripting.NashornScriptEngine.eval(NashornScriptEngine.java:155)
+	at javax.script.AbstractScriptEngine.eval(Unknown Source)
+	at com.intuit.karate.ScriptBindings.eval(ScriptBindings.java:139)
+	at com.intuit.karate.ScriptBindings.updateBindingsAndEval(ScriptBindings.java:134)
+	at com.intuit.karate.ScriptBindings.evalInNashorn(ScriptBindings.java:119)
+	at com.intuit.karate.Script.evalJsExpression(Script.java:371)
+	at com.intuit.karate.Script.evalKarateExpression(Script.java:285)
+	at com.intuit.karate.Script.evalKarateExpression(Script.java:171)
+	at com.intuit.karate.Script.assign(Script.java:601)
+	at com.intuit.karate.Script.assign(Script.java:527)
+	at com.intuit.karate.StepDefs.def(StepDefs.java:309)
+	at ?.* def response = read('Response.json')(C:\Users\rgade\RestAssured\karatedemo\target\test-classes\examples\users\users.feature:15)
+

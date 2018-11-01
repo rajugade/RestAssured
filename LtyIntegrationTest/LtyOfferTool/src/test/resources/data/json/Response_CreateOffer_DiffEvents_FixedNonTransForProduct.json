@@ -1,0 +1,77 @@
+{  
+   "rewardOffer":{  
+      "offerHeader":{  
+         "offerCode":"MCY10014105",
+         "division":"77",
+         "programCode":"LTYMCY001",
+         "desc":"cc enroll",
+         "channelEligible":"Online",
+         "effectiveDate":"2017-12-12T00:00:00.000",
+         "expirationDate":"2017-12-13T00:00:00.000",
+         "offerStatus":"DRAFT",
+         "createdBy":"WBT_User",
+         "campaignId":"123",
+         "campaignDescription":"test2"
+      },
+      "offerReward":{  
+         "eventType":"eventTypes",
+         "eventName":"Test123",
+         "offerType":"10",
+         "validInDays":0,
+         "offerFrequency":3,
+         "tierName":[  
+            "Platinum"
+         ],
+         "tenderType":[  
+            "MCC"
+         ],
+         "priceStatus":[  
+            "Active at Reg price",
+            "First markdown",
+            "Second markdown",
+            "Third markdown",
+            "Final Liquidation",
+            "Salvage",
+            "Job out",
+            "Permanent markdown"
+         ],
+         "offerRank":1,
+         "employeeExclusion":false,
+         "fixedOfferCombinable":false,
+         "isIncremental":false,
+         "isPowerPoint":false,
+         "psc":"dcls",
+         "isPickaday":false,
+         "validInDays":10,
+          "triggerOfferEventPeriod":30
+      },
+      "stores":{  
+         "store":[  
+
+         ]
+      },
+      "productGroup":{  
+         "recordGroup":1,
+         "groupItemCount":1,
+         "product":[  
+            {  
+               "dept":834,
+               "deptClass":1,
+               "gmmID":1,
+               "productDivision":6
+            }
+         ]
+      },
+      "offerRewardDetail":{  
+         "points":10,
+         "txnSpendMin":100,
+         "txnSpendMax":1000
+      },
+      "notes":{  
+         "note":[  
+
+         ]
+      },
+      "deferredPoint":false
+   }
+}

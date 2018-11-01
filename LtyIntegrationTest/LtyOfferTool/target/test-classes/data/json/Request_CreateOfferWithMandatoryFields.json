@@ -1,0 +1,38 @@
+{
+    "rewardOffer": {
+        "offerHeader": {
+            "division": "71",
+            "programCode": "LTYMCY001",
+            "channelEligible": "All",
+			"effectiveDate": "2017-09-21T12:00:00.000",
+			"expirationDate": "2017-09-30T11:59:00.000"
+        },
+        "offerReward": {
+            "eventType": "GENERIC",
+            "eventName": "eventName",
+            "offerFrequency": 1,
+            "tenderType": [
+                "MCC"
+            ],
+            "employeeExclusion": false,
+            "fixedOfferCombinable": false
+        },
+        "productGroup": {
+            "recordGroup": 1,
+            "groupItemCount": 0,
+            "product": [
+                {
+                    "itemCount": 0,
+                    "dept": 755,
+                    "deptClass": 0,
+                    "vendor": 0,
+                    "markStyle": 0,
+                    "gmmID": 0,
+                    "productDivision": 0
+                }
+            ]
+        },
+        "deferredPoint": false,
+        "isDeferredPoint": false
+    }
+}

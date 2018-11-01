@@ -1,0 +1,68 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Body>
+      <ns0:LtyTransactionResp xmlns:ns0="http://loyalty.macys.com/schemas/loyalty.transaction/LtyTransactionResponse/v12_0">
+         <ns0:CustomerInfo>
+            <ns1:CustomerIdentifier xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">
+               <ns1:AccountType>L</ns1:AccountType>
+               <ns1:AccountNumber EncryptionFlag="false">L920002894259</ns1:AccountNumber>
+            </ns1:CustomerIdentifier>
+            <ns1:NameDetails xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">
+               <ns1:NameFirst>MCY</ns1:NameFirst>
+               <ns1:NameLast>ACCOUNT</ns1:NameLast>
+            </ns1:NameDetails>
+            <ns1:Email xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">SYAMA8008@GMAIL.COM</ns1:Email>
+            <ns1:CusAccountStatusInfo xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">
+               <ns1:AccountStatus>A</ns1:AccountStatus>
+               <ns1:AccountStatusReason>0</ns1:AccountStatusReason>
+            </ns1:CusAccountStatusInfo>
+            <ns1:TierInfo xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">
+               <ns1:TierName>SILVER</ns1:TierName>
+               <ns1:LastTierUpdateDate>2018-01-08</ns1:LastTierUpdateDate>
+               <ns1:SpendToNextUpgrade>400.0</ns1:SpendToNextUpgrade>
+            </ns1:TierInfo>
+            <ns1:SpendInfo xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">
+               <ns1:YTDPropSpend>100.0</ns1:YTDPropSpend>
+               <ns1:YTDTotalSpend>100.0</ns1:YTDTotalSpend>
+            </ns1:SpendInfo>
+         </ns0:CustomerInfo>
+         <ns0:Program>
+            <ns0:ProgramInfo>
+               <ns1:ProgramCode xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">LTYMCY001</ns1:ProgramCode>
+               <ns1:RewardCurrency xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">POINT</ns1:RewardCurrency>
+               <ns1:RewardThresholdForAward xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">1000.0</ns1:RewardThresholdForAward>
+               <ns1:AwardValue xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">10.0</ns1:AwardValue>
+            </ns0:ProgramInfo>
+            <ns0:RewardSummary>
+               <ns1:RewardGroupCode xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">MCY</ns1:RewardGroupCode>
+               <ns0:RewardInfo>
+                  <ns1:BeginBalance xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">
+                     <ns1:AvailableReward>0.0</ns1:AvailableReward>
+                     <ns1:PendingReward>0.0</ns1:PendingReward>
+                     <ns1:DeferredReward>0.0</ns1:DeferredReward>
+                     <ns1:PendingDeferredReward>0.0</ns1:PendingDeferredReward>
+                  </ns1:BeginBalance>
+                  <ns1:EndBalance xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">
+                     <ns1:AvailableReward>0.0</ns1:AvailableReward>
+                     <ns1:PendingReward>0.0</ns1:PendingReward>
+                     <ns1:DeferredReward>0.0</ns1:DeferredReward>
+                     <ns1:PendingDeferredReward>0.0</ns1:PendingDeferredReward>
+                  </ns1:EndBalance>
+                  <ns1:Earned xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">
+                     <ns1:BaseReward>0.0</ns1:BaseReward>
+                     <ns1:BonusReward>0.0</ns1:BonusReward>
+                     <ns1:DeferredReward>0.0</ns1:DeferredReward>
+                     <ns1:TotalReward>0.0</ns1:TotalReward>
+                     <ns1:PendingBaseReward>0.0</ns1:PendingBaseReward>
+                     <ns1:PendingBonusReward>0.0</ns1:PendingBonusReward>
+                     <ns1:PendingDeferredReward>0.0</ns1:PendingDeferredReward>
+                     <ns1:PendingTotalReward>0.0</ns1:PendingTotalReward>
+                  </ns1:Earned>
+                  <ns1:YTDRewardEarned xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">0.0</ns1:YTDRewardEarned>
+                  <ns1:LifeTimeRewardEarned xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">0.0</ns1:LifeTimeRewardEarned>
+               </ns0:RewardInfo>
+            </ns0:RewardSummary>
+            <ns0:RewardsToNextAward>1000.0</ns0:RewardsToNextAward>
+         </ns0:Program>
+      </ns0:LtyTransactionResp>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

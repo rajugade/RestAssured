@@ -1,0 +1,60 @@
+{
+	"rewardOffer": {
+		"offerHeader": {
+			"offerCode": "MCY10007827",
+			"division": "71",
+			"programCode": "LTYMCY001",
+			"desc": "spend $200,Earn 2000 points",
+			"channelEligible": "In store",
+			"effectiveDate": "2017-10-16T12:00:00.000",
+			"expirationDate": "2017-10-20T11:59:00.000",
+			"offerStatus": "DRAFT",
+			"createdBy": "BM0099",
+			"createdTs": "2017-11-08T06:15:52.318",
+			"lastUpdateTs": "2017-11-08T06:15:52.318",
+			"campaignId": "LTYMCY001",
+			"campaignDescription": "LTYMCY001"
+		},
+		"offerReward": {
+			"eventType": "GENERIC",
+			"eventName": "Test123",
+			"offerType": "27",
+			"validInDays": 0,
+			"offerFrequency": 3,
+			"tierName": "Platinum",
+			"tenderType": [
+				"MCC"
+			],
+			"priceStatus": [
+				"Active at Reg price",
+				"First markdown",
+				"Second markdown",
+				"Third markdown",
+				"Final Liguidation",
+				"Salvage",
+				"Job out",
+				"Permanent markdown"
+			],
+			"offerRank": 1,
+			"employeeExclusion": false,
+			"fixedOfferCombinable": false,
+			"psc": "NA"
+		},
+		"stores": {
+			"store": []
+		},
+		"productGroup": {
+			"recordGroup": 0,
+			"groupItemCount": 0,
+			"product": []
+		},
+		"offerRewardDetail": {
+			"points": 2000.0,
+			"txnSpendMin": 600.0
+		},
+		"notes": {
+			"note": []
+		},
+		"deferredPoint": false
+	}
+}

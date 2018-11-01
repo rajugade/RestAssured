@@ -1,0 +1,98 @@
+{
+    "rewardOffer": {
+        "offerHeader": {
+            "offerCode": "MCY10010349",
+            "division": "71",
+            "programCode": "LTYMCY001",
+            "desc": "spend $100,Earn 20 points",
+            "channelEligible": "All",
+            "effectiveDate": "2017-11-23T00:00:00.000",
+            "expirationDate": "2017-12-30T23:59:00.000",
+            "offerStatus": "DRAFT",
+            "createdBy": "WBT_User",
+             "campaignId": "LTYMCY001",
+            "campaignDescription": "spend $100,Earn 20 points"
+        },
+        "offerReward": {
+            "eventType": "GENERIC",
+            "eventName": "Test123",
+            "offerType": "8",
+            "validInDays": 0,
+            "offerFrequency": 1,
+            "tierName": ["All"],
+            "tenderType": [
+                "MCC"
+            ],
+            "priceStatus": [
+                "Active at Reg price",
+                "First markdown",
+                "Second markdown",
+                "Third markdown",
+                "Final Liquidation",
+                "Salvage",
+                "Job out",
+                "Permanent markdown"
+            ],
+            "offerRank": 2,
+            "employeeExclusion": false,
+            "fixedOfferCombinable": false,
+            "isIncremental": false,
+            "isPowerPoint": false,
+            "psc": "dcls"
+        },
+        "stores": {
+            "store": []
+        },
+        "productGroup": {
+            "recordGroup": 1,
+            "groupItemCount": 1,
+            "product": [
+                {
+                    "dept": 288,
+                    "deptClass": 8,
+                    "gmmID": 1,
+                    "productDivision": 6
+                },
+                {
+                    "dept": 288,
+                    "deptClass": 13,
+                    "gmmID": 1,
+                    "productDivision": 6
+                },
+                {
+                    "dept": 288,
+                    "deptClass": 16,
+                    "gmmID": 1,
+                    "productDivision": 6
+                },
+                {
+                    "dept": 325,
+                    "deptClass": 12,
+                    "gmmID": 4,
+                    "productDivision": 38
+                },
+                {
+                    "dept": 325,
+                    "deptClass": 26,
+                    "gmmID": 4,
+                    "productDivision": 38
+                },
+                {
+                    "dept": 325,
+                    "deptClass": 94,
+                    "gmmID": 4,
+                    "productDivision": 38
+                }
+            ]
+        },
+        "offerRewardDetail": {
+            "points": 10,
+            "txnSpendMin": 100,
+            "txnSpendMax": 99999
+        },
+        "notes": {
+            "note": []
+        },
+        "deferredPoint": false
+    }
+}

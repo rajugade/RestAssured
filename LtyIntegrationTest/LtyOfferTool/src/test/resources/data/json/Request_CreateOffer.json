@@ -1,0 +1,83 @@
+{
+    "rewardOffer": {
+        "offerHeader": {
+            "division": "71",
+            "programCode": "LTYMCY001",
+            "desc": "spend $100,Earn 750 points",
+            "channelEligible": "channelEligible",
+            "effectiveDate": "2017-08-22T12:00:00.000",
+            "expirationDate": "2017-08-23T11:59:00.000",
+            "offerStatus": "DRAFT",
+            "approvedBy": "approvedBy",
+            "createdBy": "WBT_User",
+            "campaignId": "LTYMCY002",
+            "campaignDescription": "Camp-Desc"
+        },
+        "offerReward": {
+            "eventType": "GENERIC",
+            "eventName": "Test123",
+            "offerType": "4",
+            "validInDays": 10,
+            "offerFrequency": 2,
+            "tenderType": [
+                "MCC"
+            ],
+            "priceStatus": [
+                "0",
+                "10"
+            ],
+            "offerRank": 10,
+            "psc": "NA",
+            "employeeExclusion": true,
+            "fixedOfferCombinable": true
+        },
+        "stores": {
+            "store": [
+                {
+                    "region": "Region",
+                    "subRegion": "SubRegion",
+                    "district": "District",
+                    "store": "Store"
+                }
+            ]
+        },
+        "productGroup": {
+            "recordGroup": 1,
+            "groupItemCount": 1,
+            "product": [
+                {
+                    "itemCount": 1,
+                    "dept": 1,
+                    "deptClass": 1,
+                    "vendor": 5,
+                    "markStyle": 0,
+                    "gmmID": 10,
+                    "productDivision": 71
+                }
+            ]
+        },
+        "offerRewardDetail": {
+            "points": 10.0,
+            "multiplier": 2.0,
+            "txnSpendMin": 100.0,
+            "txnSpendMax": 1000.0,
+            "deptSpendMin": 100.0,
+            "deptSpendMax": 1000.0
+        },
+        "notes": {
+            "note": [
+                {
+                    "note": "Offer Created for Star rewards as per 1806 Campaign1",
+                    "noteBy": "b004932",
+                    "noteDt": "2017-06-28"
+                },
+                {
+                    "note": "Offer Created for Star rewards as per 1808 Campaign2",
+                    "noteBy": "b004932",
+                    "noteDt": "2017-06-28"
+                }
+            ]
+        },
+        "deferredPoint": true
+    }
+}

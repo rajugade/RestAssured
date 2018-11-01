@@ -1,0 +1,116 @@
+{
+	"took": 147,
+	"timed_out": false,
+	"_shards": {
+		"total": 5,
+		"successful": 5,
+		"failed": 0
+	},
+	"hits": {
+		"total": 2138082,
+		"max_score": 0.0,
+		"hits": []
+	},
+	"aggregations": {
+		"name": {
+			"doc_count_error_upper_bound": 0,
+			"sum_other_doc_count": 0,
+			"buckets": [{
+				"key": "47",
+				"doc_count": 825074,
+				"name": {
+					"doc_count_error_upper_bound": 0,
+					"sum_other_doc_count": 0,
+					"buckets": [{
+						"key": "HOME",
+						"doc_count": 825074
+					}]
+				}
+			},
+			{
+				"key": "5",
+				"doc_count": 453981,
+				"name": {
+					"doc_count_error_upper_bound": 0,
+					"sum_other_doc_count": 0,
+					"buckets": [{
+						"key": "MENS & KIDS",
+						"doc_count": 453981
+					}]
+				}
+			},
+			{
+				"key": "1",
+				"doc_count": 339865,
+				"name": {
+					"doc_count_error_upper_bound": 0,
+					"sum_other_doc_count": 0,
+					"buckets": [{
+						"key": "CENTER CORE",
+						"doc_count": 339865
+					}]
+				}
+			},
+			{
+				"key": "2",
+				"doc_count": 325768,
+				"name": {
+					"doc_count_error_upper_bound": 0,
+					"sum_other_doc_count": 0,
+					"buckets": [{
+						"key": "READY TO WEAR",
+						"doc_count": 325768
+					}]
+				}
+			},
+			{
+				"key": "91",
+				"doc_count": 100024,
+				"name": {
+					"doc_count_error_upper_bound": 0,
+					"sum_other_doc_count": 0,
+					"buckets": [{
+						"key": "COST/WORKROOM/LEASE",
+						"doc_count": 100024
+					}]
+				}
+			},
+			{
+				"key": "4",
+				"doc_count": 65678,
+				"name": {
+					"doc_count_error_upper_bound": 0,
+					"sum_other_doc_count": 0,
+					"buckets": [{
+						"key": "BEAUTY",
+						"doc_count": 65678
+					}]
+				}
+			},
+			{
+				"key": "6",
+				"doc_count": 14597,
+				"name": {
+					"doc_count_error_upper_bound": 0,
+					"sum_other_doc_count": 0,
+					"buckets": [{
+						"key": "MISCELLANEOUS",
+						"doc_count": 14597
+					}]
+				}
+			},
+			{
+				"key": "7",
+				"doc_count": 13095,
+				"name": {
+					"doc_count_error_upper_bound": 0,
+					"sum_other_doc_count": 0,
+					"buckets": [{
+						"key": "BACKSTAGE",
+						"doc_count": 13095
+					}]
+				}
+			}]
+		}
+	}
+}

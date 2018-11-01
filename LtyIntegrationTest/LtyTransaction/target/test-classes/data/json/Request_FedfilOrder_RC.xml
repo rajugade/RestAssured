@@ -1,0 +1,35 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://www.tibco.com/schemas/MacysLTY_TestBed/SharedResources/Schema/Schema.xsd3" xmlns:v1="http://www.macys.com/schemas/Fedfil/OrderEventDetailMessage/v1_0">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <sch:FedFilOrders>
+         <sch:Header>
+            <sch:ReservationNumber>DynamicReservation</sch:ReservationNumber>
+            <sch:EventCode>RC</sch:EventCode>
+            <sch:IsLoyalty>1</sch:IsLoyalty>
+            <sch:IsAOI>0</sch:IsAOI>
+            <sch:OriginalTimestamp>2018-01-08T09:00:42.208-04:00</sch:OriginalTimestamp>
+         </sch:Header>
+         <v1:OrderEventDetail>
+            <v1:EventTypeCode>RC</v1:EventTypeCode>
+            <v1:EventTimestamp>2018-01-08T09:00:42.208-04:00</v1:EventTimestamp>
+            <v1:ReservationHeader>
+               <v1:ReservationNumber>DynamicReservation</v1:ReservationNumber>
+               <v1:OrderId>DynamicOrderNum</v1:OrderId>
+               <v1:SellingDivisionNumber>71</v1:SellingDivisionNumber>
+               <v1:SellingStoreNumber>10</v1:SellingStoreNumber>
+               <v1:AddedByApp>ESEND</v1:AddedByApp>
+               <v1:OrderConfirmationTimestamp>2018-01-08T09:00:42.208-04:00</v1:OrderConfirmationTimestamp>
+               <v1:SellingAssociateId>12345</v1:SellingAssociateId>
+               <v1:LoyaltyList>
+                  <v1:Loyalty>
+                     <v1:LoyaltyType>L</v1:LoyaltyType>
+                     <v1:LoyaltyId>DynamicAccountNumber</v1:LoyaltyId>
+                  </v1:Loyalty>
+               </v1:LoyaltyList>
+               <v1:Stat>3</v1:Stat>
+            </v1:ReservationHeader>
+            <v1:IsRepeatingEvent>0</v1:IsRepeatingEvent>
+         </v1:OrderEventDetail>
+      </sch:FedFilOrders>
+   </soapenv:Body>
+</soapenv:Envelope>

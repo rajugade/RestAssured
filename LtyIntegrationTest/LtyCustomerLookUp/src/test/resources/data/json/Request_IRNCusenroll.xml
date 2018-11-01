@@ -1,0 +1,56 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ent="http://www.macys.com/enterprise_services" xmlns:v11="http://loyalty.macys.com/schemas/loyalty.customer/CusRequest/v11_0" xmlns:v111="http://loyalty.macys.com/schemas/loyalty.transaction/LtyCommon/v11_0" xmlns:v112="http://loyalty.macys.com/schemas/loyalty.customer/CusCommon/v11_0" xmlns:v113="http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0">
+   <soapenv:Header>
+      <ent:requestor_info>
+         <version>11.3</version>
+         <client_id>Stores</client_id>
+         <subclient_id>SPOS</subclient_id>
+      </ent:requestor_info>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v11:CusEnrollReq>
+         <v111:CommunicationHeader>
+            <v111:Division>71</v111:Division>
+            <v111:SourceApp>SPOS</v111:SourceApp>
+            <v111:SttInfo>
+               <v111:Date>2017-10-16</v111:Date>
+               <v111:Store>20</v111:Store>
+               <v111:RegisterNum>22</v111:RegisterNum>
+               <v111:SalesTransNum>SalesTransNumValue</v111:SalesTransNum>
+            </v111:SttInfo>
+            <v111:AssociateId>12345</v111:AssociateId>
+            <v111:LTYVersion>11</v111:LTYVersion>
+         </v111:CommunicationHeader>
+         <v112:NameDetails>
+            <v112:NameFirst>MCY</v112:NameFirst>
+            <v112:NameLast>ACCOUNT</v112:NameLast>
+            <v112:NameMidl>TEST</v112:NameMidl>
+         </v112:NameDetails>
+         <v112:AddressDetails>
+            <v112:AddressLine1>4000 Johns Creek Ct</v112:AddressLine1>
+            <v112:City>Johns Creek</v112:City>
+            <v112:StateCd>GA</v112:StateCd>
+            <v112:PostalCd>30024</v112:PostalCd>
+            <v112:CountryCd>US</v112:CountryCd>
+         </v112:AddressDetails>
+         <v112:Phone>209-PhoneValue</v112:Phone>
+         <v112:Email>UpgradeEmailValue@gmail.com</v112:Email>
+         <v112:DOBDetails>
+            <v112:Month>01</v112:Month>
+            <v112:Day>01</v112:Day>
+            <v112:Year>1987</v112:Year>
+         </v112:DOBDetails>
+         <v112:CustomerIdentifier>
+            <v112:AccountType>accType</v112:AccountType>
+            <v112:AccountNumber>accNum</v112:AccountNumber>
+         </v112:CustomerIdentifier>
+         <v113:AddedByApp>SPOS</v113:AddedByApp>
+         <v113:AssociateId>12345</v113:AssociateId>
+         <v113:Division>71</v113:Division>
+         <v113:Store>20</v113:Store>
+         <v112:Hygiene>0</v112:Hygiene>
+         <v11:EnrollToProgram>
+            <v112:ProgramCode>LTYMCY001</v112:ProgramCode>
+         </v11:EnrollToProgram>
+      </v11:CusEnrollReq>
+   </soapenv:Body>
+</soapenv:Envelope>

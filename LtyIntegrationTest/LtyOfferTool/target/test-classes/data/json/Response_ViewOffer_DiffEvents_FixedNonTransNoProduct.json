@@ -1,0 +1,97 @@
+{
+    "rewardOffer": {
+        "offerHeader": {
+            "offerCode": "MCY10019007",
+            "division": "71",
+            "programCode": "LTYMCY001",
+            "desc": "TEST",
+            "channelEligible": "In store",
+            "effectiveDate": "2017-12-12T00:00:00.000",
+            "expirationDate": "2017-12-13T00:00:00.000",
+            "offerStatus": "DRAFT",
+            "createdBy": "WBT_User",
+            "createdTs": "2018-01-12T01:07:54.367",
+            "lastUpdateTs": "2018-01-12T01:07:54.367",
+            "campaignId": "1234",
+            "campaignDescription": "Test1"
+        },
+        "offerReward": {
+            "eventType": "eventTypes",
+            "offerType": "offerTypeVal",
+            "validInDays": 0,
+            "offerFrequency": 1,
+            "tierName": [
+                "Platinum"
+            ],
+            "tenderType": [
+                "MCC"
+            ],
+            "priceStatus": [
+                "Active at Reg price",
+                "First markdown",
+                "Second markdown",
+                "Third markdown",
+                "Final Liquidation",
+                "Salvage",
+                "Job out",
+                "Permanent markdown"
+            ],
+            "offerRank": 1,
+            "employeeExclusion": false,
+            "fixedOfferCombinable": false,
+            "isIncremental": false,
+            "isPowerPoint": false,
+            "psc": "NA",
+            "isPickaday": false
+        },
+        "stores": {
+            "store": [
+                
+            ]
+        },
+        "productGroup": {
+            "recordGroup": 0,
+            "groupItemCount": 0,
+            "product": [
+                {
+                    "gmmID": 1
+                },
+                {
+                    "gmmID": 2
+                },
+                {
+                    "gmmID": 4
+                },
+                {
+                    "gmmID": 5
+                },
+                {
+                    "gmmID": 6
+                },
+                {
+                    "gmmID": 7
+                },
+                {
+                    "gmmID": 47
+                },
+                {
+                    "gmmID": 91
+                }
+            ]
+        },
+        "offerRewardDetail": {
+         "points":"pointsVal",
+         "txnSpendMin":"txnSpendMinVal",
+         "txnSpendMax":"txnSpendMaxVal",
+         "deptSpendMin": "deptSpendMinVal",
+         "deptSpendMax": "deptSpendMaxVal",
+         "multiplier": "multiplierVal"
+        },
+        "notes": {
+            "note": [
+                
+            ]
+        },
+        "deferredPoint": false
+    }
+}

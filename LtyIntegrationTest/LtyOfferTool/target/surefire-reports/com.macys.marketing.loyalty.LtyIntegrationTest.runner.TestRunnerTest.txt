@@ -1,0 +1,392 @@
+-------------------------------------------------------------------------------
+Test set: com.macys.marketing.loyalty.LtyIntegrationTest.runner.TestRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 268, Failures: 48, Errors: 0, Skipped: 115, Time elapsed: 84.141 sec <<< FAILURE! - in com.macys.marketing.loyalty.LtyIntegrationTest.runner.TestRunnerTest
+Then I Verify Offer Response(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX(no products) with isincremental true and incremental amount)  Time elapsed: 0.001 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-11-30T[11]:59:00.000"> but was:<"2017-11-30T[23]:59:00.000">
+
+
+Scenario: Verify create Offer for fixed incremental points for every purchase of $XX(no products) with isincremental true and incremental amount  Time elapsed: 0.001 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-11-30T[11]:59:00.000"> but was:<"2017-11-30T[23]:59:00.000">
+
+
+Then I Verify Offer Response(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX product spend with isincremental true and incremental amount)  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-30T[11]:59:00.000"> but was:<"2017-12-30T[23]:59:00.000">
+
+
+Scenario: Verify create Offer for fixed incremental points for every purchase of $XX product spend with isincremental true and incremental amount  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-30T[11]:59:00.000"> but was:<"2017-12-30T[23]:59:00.000">
+
+
+Then I Verify Offer Response(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX(no products) with isincremental false)  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-11-30T[11]:59:00.000"> but was:<"2017-11-30T[23]:59:00.000">
+
+
+Scenario: Verify create Offer for fixed incremental points for every purchase of $XX(no products) with isincremental false  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-11-30T[11]:59:00.000"> but was:<"2017-11-30T[23]:59:00.000">
+
+
+Then I Verify Offer Response(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX product spend with isincremental false)  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-30T[11]:59:00.000"> but was:<"2017-12-30T[23]:59:00.000">
+
+
+Scenario: Verify create Offer for fixed incremental points for every purchase of $XX product spend with isincremental false  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-30T[11]:59:00.000"> but was:<"2017-12-30T[23]:59:00.000">
+
+
+Then I Verify Offer Response(Scenario: Scenario: Verify offer type and event type in offer response for event type 'CC Enroll' and offer type 'Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)')  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Scenario: Scenario: Verify offer type and event type in offer response for event type 'CC Enroll' and offer type 'Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)'  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type 'Loyalty Enroll' and offer type 'Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)')  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Scenario: Verify offer type and event type in offer response for event type 'Loyalty Enroll' and offer type 'Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)'  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type 'Email add' and offer type 'Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)')  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Scenario: Verify offer type and event type in offer response for event type 'Email add' and offer type 'Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)'  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type 'Tier upgrade' and offer type 'Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)')  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Scenario: Verify offer type and event type in offer response for event type 'Tier upgrade' and offer type 'Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)'  Time elapsed: 0.001 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type 'CC Enroll' and offer type 'Fixed for non-transactional behavior (purchase required)')  Time elapsed: 0.001 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Scenario: Verify offer type and event type in offer response for event type 'CC Enroll' and offer type 'Fixed for non-transactional behavior (purchase required)'  Time elapsed: 0.001 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type 'Loyalty Enroll' and offer type 'Fixed for non-transactional behavior (purchase required)')  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Scenario: Verify offer type and event type in offer response for event type 'Loyalty Enroll' and offer type 'Fixed for non-transactional behavior (purchase required)'  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type 'Email add' and offer type 'Fixed for non-transactional behavior (purchase required)')  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Scenario: Verify offer type and event type in offer response for event type 'Email add' and offer type 'Fixed for non-transactional behavior (purchase required)'  Time elapsed: 0.001 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type 'Tier upgrade' and offer type 'Fixed for non-transactional behavior (purchase required)')  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Scenario: Verify offer type and event type in offer response for event type 'Tier upgrade' and offer type 'Fixed for non-transactional behavior (purchase required)'  Time elapsed: 0.001 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type 'CC Enroll' and offer type 'Multiplier for non-transactional behavior (purchase required))')  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Scenario: Verify offer type and event type in offer response for event type 'CC Enroll' and offer type 'Multiplier for non-transactional behavior (purchase required))'  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type 'Loyalty Enroll' and offer type 'Multiplier for non-transactional behavior (purchase required))')  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Scenario: Verify offer type and event type in offer response for event type 'Loyalty Enroll' and offer type 'Multiplier for non-transactional behavior (purchase required))'  Time elapsed: 0.001 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type 'Email add' and offer type 'Multiplier for non-transactional behavior (purchase required))')  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Scenario: Verify offer type and event type in offer response for event type 'Email add' and offer type 'Multiplier for non-transactional behavior (purchase required))'  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type 'Tier upgrade' and offer type 'Multiplier for non-transactional behavior (purchase required))')  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Scenario: Verify offer type and event type in offer response for event type 'Tier upgrade' and offer type 'Multiplier for non-transactional behavior (purchase required))'  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+
+Then I Verify Offer Response(Scenario: Verify create Offer for eventype 'PICK YOUR DAY' and offertype 'Multiplier for any purchase get Xx points after any purchase')  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-11-30T[11]:59:00.000"> but was:<"2017-11-30T[23]:59:00.000">
+
+
+Scenario: Verify create Offer for eventype 'PICK YOUR DAY' and offertype 'Multiplier for any purchase get Xx points after any purchase'  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-11-30T[11]:59:00.000"> but was:<"2017-11-30T[23]:59:00.000">
+
+
+Then I Verify Offer Response(Scenario: Verify create Offer for eventype 'PICK YOUR DAY' and offertype 'Multiplier for Product Spend: Get Xx Points $Y product spend')  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 4 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-29T[12]:00:00.000"> but was:<"2017-11-29T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-29T[11]:59:00.000"> but was:<"2017-12-29T[23]:59:00.000">
+3) [The Store value is: ] expected:<"000[37]"> but was:<"000[06]">
+4) [The Store value is: ] expected:<"000[06]"> but was:<"000[37]">
+
+
+Scenario: Verify create Offer for eventype 'PICK YOUR DAY' and offertype 'Multiplier for Product Spend: Get Xx Points $Y product spend'  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 4 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-29T[12]:00:00.000"> but was:<"2017-11-29T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-29T[11]:59:00.000"> but was:<"2017-12-29T[23]:59:00.000">
+3) [The Store value is: ] expected:<"000[37]"> but was:<"000[06]">
+4) [The Store value is: ] expected:<"000[06]"> but was:<"000[37]">
+
+
+Then I Verify Offer Response(Scenario: Verify create Offer for eventype 'PICK YOUR DAY' and offertype 'Multiplier for Transaction Spend: Get Xx Points after $Y spend')  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-11-30T[11]:59:00.000"> but was:<"2017-11-30T[23]:59:00.000">
+
+
+Scenario: Verify create Offer for eventype 'PICK YOUR DAY' and offertype 'Multiplier for Transaction Spend: Get Xx Points after $Y spend'  Time elapsed: 0.001 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-11-30T[11]:59:00.000"> but was:<"2017-11-30T[23]:59:00.000">
+
+
+Then I Verify Offer Response(Scenario: Verify View offer response when tier selected Gold,Platinum and Silver)  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-11T[12]:00:00.000"> but was:<"2017-12-11T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-26T[11]:59:00.000"> but was:<"2017-12-26T[23]:59:00.000">
+
+
+Scenario: Verify View offer response when tier selected Gold,Platinum and Silver  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-11T[12]:00:00.000"> but was:<"2017-12-11T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-26T[11]:59:00.000"> but was:<"2017-12-26T[23]:59:00.000">
+
+
+Then I Verify Offer Response(Scenario: Verify View offer response when tier selected Gold and Silver)  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-15T[12]:00:00.000"> but was:<"2017-12-15T[]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-28T[11]:59:00.000"> but was:<"2017-12-28T[23]:59:00.000">
+
+
+Scenario: Verify View offer response when tier selected Gold and Silver  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-15T[12]:00:00.000"> but was:<"2017-12-15T[]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-28T[11]:59:00.000"> but was:<"2017-12-28T[23]:59:00.000">
+
+
+Then I Verify Offer Response(Scenario: Verify View offer response when tier selected TopOfTheList)  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-11T[12]:00:00.000"> but was:<"2017-12-11T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-31T[11]:59:00.000"> but was:<"2017-12-31T[23]:59:00.000">
+
+
+Scenario: Verify View offer response when tier selected TopOfTheList  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-11T[12]:00:00.000"> but was:<"2017-12-11T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-31T[11]:59:00.000"> but was:<"2017-12-31T[23]:59:00.000">
+
+
+Then I Verify Offer Response(Scenario: Verify View offer response when tier selected BCCLoyalist)  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-11T[12]:00:00.000"> but was:<"2017-12-11T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-31T[11]:59:00.000"> but was:<"2017-12-31T[23]:59:00.000">
+
+
+Scenario: Verify View offer response when tier selected BCCLoyalist  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-11T[12]:00:00.000"> but was:<"2017-12-11T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-31T[11]:59:00.000"> but was:<"2017-12-31T[23]:59:00.000">
+
+
+Then I Verify Offer Response(Scenario: Verify View offer response when tier selected ThirdPartyLoyalist)  Time elapsed: 0 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-11T[12]:00:00.000"> but was:<"2017-12-11T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-31T[11]:59:00.000"> but was:<"2017-12-31T[23]:59:00.000">
+
+
+Scenario: Verify View offer response when tier selected ThirdPartyLoyalist  Time elapsed: 0.001 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-11T[12]:00:00.000"> but was:<"2017-12-11T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-31T[11]:59:00.000"> but was:<"2017-12-31T[23]:59:00.000">
+
+

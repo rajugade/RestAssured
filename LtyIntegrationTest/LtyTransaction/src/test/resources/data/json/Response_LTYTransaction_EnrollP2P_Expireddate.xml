@@ -1,0 +1,33 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Body>
+      <ns0:LtyTransactionResp xmlns:ns0="http://loyalty.macys.com/schemas/loyalty.transaction/LtyTransactionResponse/v12_0">
+         <ns0:CustomerInfo>
+            <ns1:CustomerIdentifier xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">
+               <ns1:AccountType>L</ns1:AccountType>
+               <ns1:AccountNumber EncryptionFlag="false">L920002894506</ns1:AccountNumber>
+            </ns1:CustomerIdentifier>
+            <ns1:NameDetails xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">
+               <ns1:NameFirst>WBTFIRST</ns1:NameFirst>
+               <ns1:NameLast>WBTLAST</ns1:NameLast>
+            </ns1:NameDetails>
+            <ns1:CusAccountStatusInfo xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">
+               <ns1:AccountStatus>A</ns1:AccountStatus>
+               <ns1:AccountStatusReason>0</ns1:AccountStatusReason>
+            </ns1:CusAccountStatusInfo>
+            <ns1:TierInfo xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">
+               <ns1:TierName>SILVER</ns1:TierName>
+               <ns1:LastTierUpdateDate>2018-01-09</ns1:LastTierUpdateDate>
+               <ns1:SpendToNextUpgrade>425.0</ns1:SpendToNextUpgrade>
+            </ns1:TierInfo>
+            <ns1:SpendInfo xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">
+               <ns1:YTDPropSpend>75.0</ns1:YTDPropSpend>
+               <ns1:YTDTotalSpend>75.0</ns1:YTDTotalSpend>
+            </ns1:SpendInfo>
+         </ns0:CustomerInfo>
+         <ns1:Notification xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.common/LtyCommon/v12_0">
+            <ns1:NotificationMode>DISPLAY</ns1:NotificationMode>
+            <ns1:NotificationType>PRGM_ENRL_FAIL</ns1:NotificationType>
+         </ns1:Notification>
+      </ns0:LtyTransactionResp>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

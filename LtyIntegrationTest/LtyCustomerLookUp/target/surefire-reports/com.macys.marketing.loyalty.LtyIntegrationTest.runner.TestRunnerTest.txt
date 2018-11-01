@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.macys.marketing.loyalty.LtyIntegrationTest.runner.TestRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 43, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 84.642 sec <<< FAILURE! - in com.macys.marketing.loyalty.LtyIntegrationTest.runner.TestRunnerTest
+And I CusLookUp by Account Number(Scenario: Enroll Customer with IRN)  Time elapsed: 0.008 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) [The Fault code is: ] 
+Expecting:
+ <"<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Body><SOAP-ENV:Fault><faultcode>SOAP-ENV:Server</faultcode><faultstring>This is an operation implementation generated fault</faultstring><faultactor/><detail><ns:CusFault xmlns:ns0="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://loyalty.macys.com/schemas/loyalty.customer/CusResponse/v11_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"><ns1:ErrorCode xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0">1006</ns1:ErrorCode><ns1:ErrorMsg xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0">System Unavailable</ns1:ErrorMsg></ns:CusFault></detail></SOAP-ENV:Fault></SOAP-ENV:Body></SOAP-ENV:Envelope>">
+to contain:
+ <"INVALID LOYALTY ID"> 
+
+
+Scenario: Enroll Customer with IRN  Time elapsed: 0.008 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) [The Fault code is: ] 
+Expecting:
+ <"<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Body><SOAP-ENV:Fault><faultcode>SOAP-ENV:Server</faultcode><faultstring>This is an operation implementation generated fault</faultstring><faultactor/><detail><ns:CusFault xmlns:ns0="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://loyalty.macys.com/schemas/loyalty.customer/CusResponse/v11_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"><ns1:ErrorCode xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0">1006</ns1:ErrorCode><ns1:ErrorMsg xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0">System Unavailable</ns1:ErrorMsg></ns:CusFault></detail></SOAP-ENV:Fault></SOAP-ENV:Body></SOAP-ENV:Envelope>">
+to contain:
+ <"INVALID LOYALTY ID"> 
+
+

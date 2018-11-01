@@ -1,0 +1,22 @@
+{
+    "controlElements": {
+        "controlElement": [
+            {
+                "id": 19,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 1,
+                "controlElementValue": "Once",
+                "controlGroup": "PRESENTMENT"
+            },
+            {
+                "id": 20,
+                "brand": "MACYS",
+                "division": 71,
+                "controlKey": 3,
+                "controlElementValue": "Multiple",
+                "controlGroup": "PRESENTMENT"
+            }
+        ]
+    }
+}

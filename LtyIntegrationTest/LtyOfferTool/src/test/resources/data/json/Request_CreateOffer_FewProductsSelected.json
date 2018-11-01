@@ -1,0 +1,97 @@
+{  
+   "rewardOffer":{  
+      "offerHeader":{  
+         "division":71,
+         "programCode":"LTYMCY001",
+         "desc":"spend $300,Earn 10 points",
+         "channelEligible":"All",
+         "effectiveDate":"2017-11-25T12:00:00.000",
+         "expirationDate":"2018-11-30T11:59:00.000",
+         "offerStatus":"DRAFT",
+         "campaignId":"LTYMCY001",
+         "campaignDescription":"spend $300,Earn 10 points",
+         "createdBy":"WBT_User"
+      },
+      "offerReward":{  
+         "eventType":"GENERIC",
+         "offerType":"6",
+         "offerFrequency":1,
+         "tierName":["All"],
+         "tenderType":[  
+            "MCC"
+         ],
+         "priceStatus":[  
+            "Active at Reg price",
+            "First markdown",
+            "Second markdown",
+            "Third markdown",
+            "Final Liguidation",
+            "Salvage",
+            "Job out",
+            "Permanent markdown"
+         ],
+         "psc":"NA",
+         "offerRank":"1",
+         "employeeExclusion":0,
+         "isIncremental":false,
+         "isPowerPoint":false,
+         "fixedOfferCombinable":0
+      },
+      "stores":{  
+         "store":[  
+
+         ]
+      },
+      "productGroup":{  
+         "recordGroup":"1",
+         "groupItemCount":1,
+         "product":[  
+            {  
+               "gmmID":7,
+               "productDivision":76
+            },
+            {  
+               "gmmID":7,
+               "productDivision":71
+            },
+            {  
+               "gmmID":7,
+               "productDivision":74
+            },
+            {  
+               "gmmID":4,
+               "productDivision":38
+            },
+            {  
+               "gmmID":1,
+               "productDivision":23
+            },
+            {  
+               "gmmID":1,
+               "productDivision":6
+            },
+            {  
+               "gmmID":1,
+               "productDivision":44
+            },
+            {  
+               "gmmID":91,
+               "productDivision":67
+            },
+            {  
+               "gmmID":91,
+               "productDivision":60
+            }
+         ]
+      },
+      "isDeferredPoint":0,
+      "offerRewardDetail":{  
+         "txnSpendMin":"",
+         "txnSpendMax":"",
+         "deptSpendMin":300,
+         "deptSpendMax":"",
+         "multiplier":"",
+         "points":10
+      }
+   }
+}

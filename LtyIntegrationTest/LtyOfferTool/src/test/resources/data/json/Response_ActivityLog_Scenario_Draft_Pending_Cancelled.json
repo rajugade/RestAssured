@@ -1,0 +1,23 @@
+[
+    {
+        "action": "Offer Created",
+        "previousStatus": "N/A",
+        "currentStatus": "DRAFT",
+        "userName": "WBT_USER",
+        "lastUpdateTs": "01 Feb 2018 11:36 AM"
+    },
+    {
+        "action": "Offer Submitted for Approval",
+        "previousStatus": "DRAFT",
+        "currentStatus": "PENDING",
+        "userName": "WBT_USER",
+        "lastUpdateTs": "01 Feb 2018 11:36 AM"
+    },
+    {
+        "action": "Offer Cancelled",
+        "previousStatus": "PENDING",
+        "currentStatus": "CANCELLED",
+        "userName": "WBT_USER",
+        "lastUpdateTs": "01 Feb 2018 11:36 AM"
+    }
+]

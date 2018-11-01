@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ent="http://www.macys.com/enterprise_services" xmlns:v11="http://loyalty.macys.com/schemas/loyalty.customer/CusRequest/v11_0" xmlns:v111="http://loyalty.macys.com/schemas/loyalty.transaction/LtyCommon/v11_0" xmlns:v112="http://loyalty.macys.com/schemas/loyalty.customer/CusCommon/v11_0" xmlns:v113="http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0">
+   <soapenv:Header>
+      <ent:requestor_info>
+         <version>12</version>
+         <client_id>Stores</client_id>
+         <subclient_id>SPOS</subclient_id>
+      </ent:requestor_info>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v11:CusLookupByAccountNumberReq>
+         <v112:CustomerIdentifier>
+            <v112:AccountType>L</v112:AccountType>
+            <v112:AccountNumber>DynamicAccountNumber</v112:AccountNumber>
+         </v112:CustomerIdentifier>
+         <v113:Channel>SPOS</v113:Channel>
+         <v113:Division>72</v113:Division>
+         <v113:Store>1</v113:Store>
+         <v113:AssociateId>12345</v113:AssociateId>
+      </v11:CusLookupByAccountNumberReq>
+   </soapenv:Body>
+</soapenv:Envelope>

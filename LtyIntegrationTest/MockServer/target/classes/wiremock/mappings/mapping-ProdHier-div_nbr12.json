@@ -1,0 +1,18 @@
+{
+  "request" : {
+    "url" : "/prodhier/product/_search",
+    "method" : "POST",
+        "bodyPatterns" : [ 
+	  {
+        "contains": "\"@header.div_nbr\": 12"
+      }]
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "ProductHierarchy.json",
+    "headers" : {
+      "Content-Type" : "text/html;charset=utf-8",
+      "Date" : "Tue, 04 Apr 2017 09:33:07 GMT"
+    }
+  }
+}

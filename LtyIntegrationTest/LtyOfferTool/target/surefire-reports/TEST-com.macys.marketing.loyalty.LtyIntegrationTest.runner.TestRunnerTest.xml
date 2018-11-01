@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.macys.marketing.loyalty.LtyIntegrationTest.runner.TestRunnerTest" time="84.141" tests="268" errors="0" skipped="115" failures="48">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="F:\Restassured\loyalty-integration-test\LtyIntegrationTest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="F:\Restassured\loyalty-integration-test\LtyIntegrationTest"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\moirfan\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\maven\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\maven\apache-maven-3.3.9\bin;E:\QA\Python27;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Users\moirfan\AppData\Roaming\npm;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\moirfan"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="moirfan"/>
+    <property name="java.class.path" value="C:\maven\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\maven\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given I invoke getcontrolelements api" classname="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=EVENTTYPE selected" time="0.001"/>
+  <testcase name="Then I Verify Control Elements API Response" classname="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=EVENTTYPE selected" time="0"/>
+  <testcase name="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=EVENTTYPE selected" classname="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=EVENTTYPE selected" time="0"/>
+  <testcase name="Given I invoke getcontrolelements api" classname="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=OFFERTYPE selected" time="0"/>
+  <testcase name="Then I Verify Control Elements API Response" classname="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=OFFERTYPE selected" time="0"/>
+  <testcase name="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=OFFERTYPE selected" classname="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=OFFERTYPE selected" time="0"/>
+  <testcase name="Given I invoke getcontrolelements api" classname="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=PRICESTATUS selected" time="0"/>
+  <testcase name="Then I Verify Control Elements API Response" classname="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=PRICESTATUS selected" time="0"/>
+  <testcase name="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=PRICESTATUS selected" classname="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=PRICESTATUS selected" time="0.001"/>
+  <testcase name="Given I invoke getcontrolelements api" classname="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=PRESENTMENT selected" time="0"/>
+  <testcase name="Then I Verify Control Elements API Response" classname="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=PRESENTMENT selected" time="0"/>
+  <testcase name="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=PRESENTMENT selected" classname="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=PRESENTMENT selected" time="0"/>
+  <testcase name="Given I invoke getcontrolelements api" classname="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=TIERLEVEL selected" time="0"/>
+  <testcase name="Then I Verify Control Elements API Response" classname="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=TIERLEVEL selected" time="0"/>
+  <testcase name="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=TIERLEVEL selected" classname="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=TIERLEVEL selected" time="0"/>
+  <testcase name="Given I invoke getcontrolelements api" classname="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=CHANNELELIGIBLE selected" time="0"/>
+  <testcase name="Then I Verify Control Elements API Response" classname="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=CHANNELELIGIBLE selected" time="0"/>
+  <testcase name="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=CHANNELELIGIBLE selected" classname="Scenario: Verify control elements when brand=MACYS,division=71,controlGroup=CHANNELELIGIBLE selected" time="0"/>
+  <testcase name="Given I invoke getcontrolelements api" classname="Scenario: Verify control elements when brand=MACYS,division=71,controlKey=2 and controlGroup=OFFERTYPE selected" time="0"/>
+  <testcase name="Then I Verify Control Elements API Response" classname="Scenario: Verify control elements when brand=MACYS,division=71,controlKey=2 and controlGroup=OFFERTYPE selected" time="0"/>
+  <testcase name="Scenario: Verify control elements when brand=MACYS,division=71,controlKey=2 and controlGroup=OFFERTYPE selected" classname="Scenario: Verify control elements when brand=MACYS,division=71,controlKey=2 and controlGroup=OFFERTYPE selected" time="0"/>
+  <testcase name="Given I invoke getcontrolelements api" classname="Scenario: Verify control elements with no query parameters" time="0"/>
+  <testcase name="Then I Verify Control Elements API Response" classname="Scenario: Verify control elements with no query parameters" time="0"/>
+  <testcase name="Scenario: Verify control elements with no query parameters" classname="Scenario: Verify control elements with no query parameters" time="0"/>
+  <testcase name="Given I Create Offer(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX" classname="Given I Create Offer(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX(no products) with isincremental true and incremental amount)" time="0"/>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX" classname="Then I Verify Offer Response(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX(no products) with isincremental true and incremental amount)" time="0.001">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-11-23T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-11-23T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-11-30T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-11-30T[23]:59:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-11-30T[11]:59:00.000"> but was:<"2017-11-30T[23]:59:00.000">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:00,046|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX" classname="Then I Verify Offer Response(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX(no products) with isincremental true and incremental amount)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Verify create Offer for fixed incremental points for every purchase of $XX" classname="Scenario: Verify create Offer for fixed incremental points for every purchase of $XX(no products) with isincremental true and incremental amount" time="0.001">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-11-23T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-11-23T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-11-30T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-11-30T[23]:59:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-11-30T[11]:59:00.000"> but was:<"2017-11-30T[23]:59:00.000">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX" classname="And I Retrieve offer(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX(no products) with isincremental true and incremental amount)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX" classname="And I update offer status(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX(no products) with isincremental true and incremental amount)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX" classname="And I update offer status(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX(no products) with isincremental true and incremental amount)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX" classname="And I Delete offer(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX(no products) with isincremental true and incremental amount)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I Create Offer" classname="Scenario: Verify create Offer for fixed incremental points for every purchase of $XX product spend with isincremental true and incremental amount" time="0"/>
+  <testcase name="Then I Verify Offer Response" classname="Scenario: Verify create Offer for fixed incremental points for every purchase of $XX product spend with isincremental true and incremental amount" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-11-23T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-11-23T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-30T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-12-30T[23]:59:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-30T[11]:59:00.000"> but was:<"2017-12-30T[23]:59:00.000">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:01,586|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Then I Verify Offer Response" classname="Scenario: Verify create Offer for fixed incremental points for every purchase of $XX product spend with isincremental true and incremental amount" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Verify create Offer for fixed incremental points for every purchase of $XX product spend with isincremental true and incremental amount" classname="Scenario: Verify create Offer for fixed incremental points for every purchase of $XX product spend with isincremental true and incremental amount" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-11-23T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-11-23T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-30T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-12-30T[23]:59:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-30T[11]:59:00.000"> but was:<"2017-12-30T[23]:59:00.000">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer" classname="Scenario: Verify create Offer for fixed incremental points for every purchase of $XX product spend with isincremental true and incremental amount" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status" classname="Scenario: Verify create Offer for fixed incremental points for every purchase of $XX product spend with isincremental true and incremental amount" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status" classname="Scenario: Verify create Offer for fixed incremental points for every purchase of $XX product spend with isincremental true and incremental amount" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer" classname="Scenario: Verify create Offer for fixed incremental points for every purchase of $XX product spend with isincremental true and incremental amount" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I Create Offer(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX" classname="Given I Create Offer(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX(no products) with isincremental false)" time="0"/>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX" classname="Then I Verify Offer Response(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX(no products) with isincremental false)" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-11-23T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-11-23T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-11-30T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-11-30T[23]:59:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-11-30T[11]:59:00.000"> but was:<"2017-11-30T[23]:59:00.000">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:02,458|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX" classname="Then I Verify Offer Response(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX(no products) with isincremental false)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Verify create Offer for fixed incremental points for every purchase of $XX" classname="Scenario: Verify create Offer for fixed incremental points for every purchase of $XX(no products) with isincremental false" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-11-23T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-11-23T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-11-30T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-11-30T[23]:59:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-11-30T[11]:59:00.000"> but was:<"2017-11-30T[23]:59:00.000">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX" classname="And I Retrieve offer(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX(no products) with isincremental false)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX" classname="And I update offer status(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX(no products) with isincremental false)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX" classname="And I update offer status(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX(no products) with isincremental false)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX" classname="And I Delete offer(Scenario: Verify create Offer for fixed incremental points for every purchase of $XX(no products) with isincremental false)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I Create Offer" classname="Scenario: Verify create Offer for fixed incremental points for every purchase of $XX product spend with isincremental false" time="0"/>
+  <testcase name="Then I Verify Offer Response" classname="Scenario: Verify create Offer for fixed incremental points for every purchase of $XX product spend with isincremental false" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-11-23T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-11-23T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-30T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-12-30T[23]:59:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-30T[11]:59:00.000"> but was:<"2017-12-30T[23]:59:00.000">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:03,529|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Then I Verify Offer Response" classname="Scenario: Verify create Offer for fixed incremental points for every purchase of $XX product spend with isincremental false" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Verify create Offer for fixed incremental points for every purchase of $XX product spend with isincremental false" classname="Scenario: Verify create Offer for fixed incremental points for every purchase of $XX product spend with isincremental false" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-11-23T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-11-23T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-30T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-12-30T[23]:59:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-30T[11]:59:00.000"> but was:<"2017-12-30T[23]:59:00.000">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer" classname="Scenario: Verify create Offer for fixed incremental points for every purchase of $XX product spend with isincremental false" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status" classname="Scenario: Verify create Offer for fixed incremental points for every purchase of $XX product spend with isincremental false" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status" classname="Scenario: Verify create Offer for fixed incremental points for every purchase of $XX product spend with isincremental false" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer" classname="Scenario: Verify create Offer for fixed incremental points for every purchase of $XX product spend with isincremental false" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I Create Offer" classname="Scenario: Verify create Offer" time="0"/>
+  <testcase name="Then I Verify Offer Response" classname="Scenario: Verify create Offer" time="0"/>
+  <testcase name="And I update offer status" classname="Scenario: Verify create Offer" time="0"/>
+  <testcase name="And I update offer status" classname="Scenario: Verify create Offer" time="0"/>
+  <testcase name="And I Retrieve offer" classname="Scenario: Verify create Offer" time="0"/>
+  <testcase name="And I Delete offer" classname="Scenario: Verify create Offer" time="0"/>
+  <testcase name="Scenario: Verify create Offer" classname="Scenario: Verify create Offer" time="0"/>
+  <testcase name="Given I Create Offer" classname="Scenario: CreateFixedOfferForAnyPurchase" time="0"/>
+  <testcase name="And I update offer status" classname="Scenario: CreateFixedOfferForAnyPurchase" time="0"/>
+  <testcase name="And I update offer status" classname="Scenario: CreateFixedOfferForAnyPurchase" time="0"/>
+  <testcase name="And I Delete offer" classname="Scenario: CreateFixedOfferForAnyPurchase" time="0"/>
+  <testcase name="Scenario: CreateFixedOfferForAnyPurchase" classname="Scenario: CreateFixedOfferForAnyPurchase" time="0"/>
+  <testcase name="Given I Create Offer" classname="Scenario: CreateFixedOfferForProductSpend" time="0"/>
+  <testcase name="And I update offer status" classname="Scenario: CreateFixedOfferForProductSpend" time="0"/>
+  <testcase name="And I update offer status" classname="Scenario: CreateFixedOfferForProductSpend" time="0"/>
+  <testcase name="And I Delete offer" classname="Scenario: CreateFixedOfferForProductSpend" time="0.001"/>
+  <testcase name="Scenario: CreateFixedOfferForProductSpend" classname="Scenario: CreateFixedOfferForProductSpend" time="0.001"/>
+  <testcase name="Given I Create Offer" classname="Scenario: CreateFixedOfferForTransactionSpend" time="0"/>
+  <testcase name="And I update offer status" classname="Scenario: CreateFixedOfferForTransactionSpend" time="0"/>
+  <testcase name="And I update offer status" classname="Scenario: CreateFixedOfferForTransactionSpend" time="0"/>
+  <testcase name="And I Delete offer" classname="Scenario: CreateFixedOfferForTransactionSpend" time="0"/>
+  <testcase name="Scenario: CreateFixedOfferForTransactionSpend" classname="Scenario: CreateFixedOfferForTransactionSpend" time="0"/>
+  <testcase name="Given I Create Offer(Scenario: Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Given I Create Offer(Scenario: Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0"/>
+  <testcase name="Then I Verify Offer Response(Scenario: Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:17,356|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Then I Verify Offer Response(Scenario: Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Scenario: Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer(Scenario: Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I Retrieve offer(Scenario: Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I update offer status(Scenario: Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I update offer status(Scenario: Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer(Scenario: Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I Delete offer(Scenario: Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I Create Offer(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Given I Create Offer(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0"/>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:18,092|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I Retrieve offer(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I Delete offer(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I Create Offer(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Given I Create Offer(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0"/>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:18,882|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I Retrieve offer(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I Delete offer(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I Create Offer(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Given I Create Offer(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0"/>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:19,602|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;" time="0.001">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I Retrieve offer(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I Delete offer(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior (no purchase required therefore product hierarch selection should be disabled)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I Create Offer(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Given I Create Offer(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0"/>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0.001">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:20,358|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;" time="0.001">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I Retrieve offer(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I Delete offer(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I Create Offer(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Given I Create Offer(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0"/>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:21,158|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I Retrieve offer(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I Delete offer(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I Create Offer(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Given I Create Offer(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0"/>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:21,900|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;" time="0.001">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I Retrieve offer(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I Delete offer(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I Create Offer(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Given I Create Offer(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0"/>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:22,669|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior " classname="Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;" time="0.001">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I Retrieve offer(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior " classname="And I Delete offer(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Fixed for non-transactional behavior (purchase required)&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I Create Offer(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="Given I Create Offer(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0"/>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:23,498|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="And I Retrieve offer(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="And I Delete offer(Scenario: Verify offer type and event type in offer response for event type &apos;CC Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I Create Offer(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="Given I Create Offer(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0"/>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:24,188|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;" time="0.001">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="And I Retrieve offer(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="And I Delete offer(Scenario: Verify offer type and event type in offer response for event type &apos;Loyalty Enroll&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I Create Offer(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="Given I Create Offer(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0"/>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:24,955|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="And I Retrieve offer(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="And I Delete offer(Scenario: Verify offer type and event type in offer response for event type &apos;Email add&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I Create Offer(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="Given I Create Offer(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0"/>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:25,754|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="Then I Verify Offer Response(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-12T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-12T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-13T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-13T[00]:00:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-12T[12]:00:00.000"> but was:<"2017-12-12T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-13T[12]:00:00.000"> but was:<"2017-12-13T[00]:00:00.000">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="And I Retrieve offer(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="And I update offer status(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Multiplier for non-transactional behavior " classname="And I Delete offer(Scenario: Verify offer type and event type in offer response for event type &apos;Tier upgrade&apos; and offer type &apos;Multiplier for non-transactional behavior (purchase required))&apos;)" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I Create Offer" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for any purchase get Xx points after any purchase&apos;" time="0"/>
+  <testcase name="Then I Verify Offer Response" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for any purchase get Xx points after any purchase&apos;" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-11-23T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-11-23T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-11-30T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-11-30T[23]:59:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-11-30T[11]:59:00.000"> but was:<"2017-11-30T[23]:59:00.000">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:26,761|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Then I Verify Offer Response" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for any purchase get Xx points after any purchase&apos;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for any purchase get Xx points after any purchase&apos;" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for any purchase get Xx points after any purchase&apos;" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-11-23T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-11-23T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-11-30T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-11-30T[23]:59:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-11-30T[11]:59:00.000"> but was:<"2017-11-30T[23]:59:00.000">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for any purchase get Xx points after any purchase&apos;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for any purchase get Xx points after any purchase&apos;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for any purchase get Xx points after any purchase&apos;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for any purchase get Xx points after any purchase&apos;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I Create Offer" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for Product Spend: Get Xx Points $Y product spend&apos;" time="0"/>
+  <testcase name="Then I Verify Offer Response" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for Product Spend: Get Xx Points $Y product spend&apos;" time="0">
+    <failure message="&#10;The following 4 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-11-29T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-11-29T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-29T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-12-29T[23]:59:00.000&quot;&gt;&#10;3) [The Store value is: ] expected:&lt;&quot;000[37]&quot;&gt; but was:&lt;&quot;000[06]&quot;&gt;&#10;4) [The Store value is: ] expected:&lt;&quot;000[06]&quot;&gt; but was:&lt;&quot;000[37]&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 4 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-29T[12]:00:00.000"> but was:<"2017-11-29T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-29T[11]:59:00.000"> but was:<"2017-12-29T[23]:59:00.000">
+3) [The Store value is: ] expected:<"000[37]"> but was:<"000[06]">
+4) [The Store value is: ] expected:<"000[06]"> but was:<"000[37]">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:27,736|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Then I Verify Offer Response" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for Product Spend: Get Xx Points $Y product spend&apos;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for Product Spend: Get Xx Points $Y product spend&apos;" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for Product Spend: Get Xx Points $Y product spend&apos;" time="0">
+    <failure message="&#10;The following 4 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-11-29T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-11-29T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-29T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-12-29T[23]:59:00.000&quot;&gt;&#10;3) [The Store value is: ] expected:&lt;&quot;000[37]&quot;&gt; but was:&lt;&quot;000[06]&quot;&gt;&#10;4) [The Store value is: ] expected:&lt;&quot;000[06]&quot;&gt; but was:&lt;&quot;000[37]&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 4 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-29T[12]:00:00.000"> but was:<"2017-11-29T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-29T[11]:59:00.000"> but was:<"2017-12-29T[23]:59:00.000">
+3) [The Store value is: ] expected:<"000[37]"> but was:<"000[06]">
+4) [The Store value is: ] expected:<"000[06]"> but was:<"000[37]">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for Product Spend: Get Xx Points $Y product spend&apos;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for Product Spend: Get Xx Points $Y product spend&apos;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for Product Spend: Get Xx Points $Y product spend&apos;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for Product Spend: Get Xx Points $Y product spend&apos;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I Create Offer" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for Transaction Spend: Get Xx Points after $Y spend&apos;" time="0"/>
+  <testcase name="Then I Verify Offer Response" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for Transaction Spend: Get Xx Points after $Y spend&apos;" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-11-23T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-11-23T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-11-30T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-11-30T[23]:59:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-11-30T[11]:59:00.000"> but was:<"2017-11-30T[23]:59:00.000">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:28,515|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Then I Verify Offer Response" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for Transaction Spend: Get Xx Points after $Y spend&apos;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for Transaction Spend: Get Xx Points after $Y spend&apos;" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for Transaction Spend: Get Xx Points after $Y spend&apos;" time="0.001">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-11-23T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-11-23T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-11-30T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-11-30T[23]:59:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-11-23T[12]:00:00.000"> but was:<"2017-11-23T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-11-30T[11]:59:00.000"> but was:<"2017-11-30T[23]:59:00.000">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for Transaction Spend: Get Xx Points after $Y spend&apos;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for Transaction Spend: Get Xx Points after $Y spend&apos;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for Transaction Spend: Get Xx Points after $Y spend&apos;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer" classname="Scenario: Verify create Offer for eventype &apos;PICK YOUR DAY&apos; and offertype &apos;Multiplier for Transaction Spend: Get Xx Points after $Y spend&apos;" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I Create Offer" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when all products are selected" time="0"/>
+  <testcase name="Then I Verify Offer Response" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when all products are selected" time="0"/>
+  <testcase name="Then I Verify Offer Response" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when all products are selected" time="0"/>
+  <testcase name="And I Retrieve offer" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when all products are selected" time="0"/>
+  <testcase name="And I update offer status" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when all products are selected" time="0"/>
+  <testcase name="And I Delete offer" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when all products are selected" time="0"/>
+  <testcase name="Scenario: Verify sorting of GMM&apos;s in viewoffer response when all products are selected" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when all products are selected" time="0"/>
+  <testcase name="Given I Create Offer" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when few products are selected" time="0"/>
+  <testcase name="Then I Verify Offer Response" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when few products are selected" time="0"/>
+  <testcase name="And I Retrieve offer" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when few products are selected" time="0"/>
+  <testcase name="And I update offer status" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when few products are selected" time="0"/>
+  <testcase name="And I Delete offer" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when few products are selected" time="0"/>
+  <testcase name="Scenario: Verify sorting of GMM&apos;s in viewoffer response when few products are selected" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when few products are selected" time="0"/>
+  <testcase name="Given I Create Offer" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when GMMs,Divisions and Dept class are selected" time="0"/>
+  <testcase name="Then I Verify Offer Response" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when GMMs,Divisions and Dept class are selected" time="0"/>
+  <testcase name="And I Retrieve offer" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when GMMs,Divisions and Dept class are selected" time="0"/>
+  <testcase name="And I update offer status" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when GMMs,Divisions and Dept class are selected" time="0"/>
+  <testcase name="And I Delete offer" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when GMMs,Divisions and Dept class are selected" time="0"/>
+  <testcase name="Scenario: Verify sorting of GMM&apos;s in viewoffer response when GMMs,Divisions and Dept class are selected" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when GMMs,Divisions and Dept class are selected" time="0"/>
+  <testcase name="Given I Create Offer" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when GMMs,Divisions and Dept VendorMarkStyle are selected" time="0"/>
+  <testcase name="Then I Verify Offer Response" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when GMMs,Divisions and Dept VendorMarkStyle are selected" time="0"/>
+  <testcase name="And I Retrieve offer" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when GMMs,Divisions and Dept VendorMarkStyle are selected" time="0"/>
+  <testcase name="And I update offer status" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when GMMs,Divisions and Dept VendorMarkStyle are selected" time="0"/>
+  <testcase name="And I Delete offer" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when GMMs,Divisions and Dept VendorMarkStyle are selected" time="0"/>
+  <testcase name="Scenario: Verify sorting of GMM&apos;s in viewoffer response when GMMs,Divisions and Dept VendorMarkStyle are selected" classname="Scenario: Verify sorting of GMM&apos;s in viewoffer response when GMMs,Divisions and Dept VendorMarkStyle are selected" time="0"/>
+  <testcase name="Given I Create Offer" classname="Scenario: Verify View offer response when no GMMs are selected" time="0"/>
+  <testcase name="Then I Verify Offer Response" classname="Scenario: Verify View offer response when no GMMs are selected" time="0"/>
+  <testcase name="And I Retrieve offer" classname="Scenario: Verify View offer response when no GMMs are selected" time="0"/>
+  <testcase name="And I update offer status" classname="Scenario: Verify View offer response when no GMMs are selected" time="0"/>
+  <testcase name="And I Delete offer" classname="Scenario: Verify View offer response when no GMMs are selected" time="0"/>
+  <testcase name="Scenario: Verify View offer response when no GMMs are selected" classname="Scenario: Verify View offer response when no GMMs are selected" time="0"/>
+  <testcase name="Given I Create Offer" classname="Scenario: Verify View offer response when tier selected Gold,Platinum and Silver" time="0"/>
+  <testcase name="Then I Verify Offer Response" classname="Scenario: Verify View offer response when tier selected Gold,Platinum and Silver" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-11T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-11T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-26T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-12-26T[23]:59:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-11T[12]:00:00.000"> but was:<"2017-12-11T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-26T[11]:59:00.000"> but was:<"2017-12-26T[23]:59:00.000">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:51,454|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: Verify View offer response when tier selected Gold,Platinum and Silver" classname="Scenario: Verify View offer response when tier selected Gold,Platinum and Silver" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-11T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-11T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-26T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-12-26T[23]:59:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-11T[12]:00:00.000"> but was:<"2017-12-11T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-26T[11]:59:00.000"> but was:<"2017-12-26T[23]:59:00.000">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer" classname="Scenario: Verify View offer response when tier selected Gold,Platinum and Silver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status" classname="Scenario: Verify View offer response when tier selected Gold,Platinum and Silver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status" classname="Scenario: Verify View offer response when tier selected Gold,Platinum and Silver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer" classname="Scenario: Verify View offer response when tier selected Gold,Platinum and Silver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I Create Offer" classname="Scenario: Verify View offer response when tier selected Gold and Silver" time="0"/>
+  <testcase name="Then I Verify Offer Response" classname="Scenario: Verify View offer response when tier selected Gold and Silver" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-15T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-15T[]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-28T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-12-28T[23]:59:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-15T[12]:00:00.000"> but was:<"2017-12-15T[]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-28T[11]:59:00.000"> but was:<"2017-12-28T[23]:59:00.000">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:52,485|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: Verify View offer response when tier selected Gold and Silver" classname="Scenario: Verify View offer response when tier selected Gold and Silver" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-15T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-15T[]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-28T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-12-28T[23]:59:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-15T[12]:00:00.000"> but was:<"2017-12-15T[]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-28T[11]:59:00.000"> but was:<"2017-12-28T[23]:59:00.000">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer" classname="Scenario: Verify View offer response when tier selected Gold and Silver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status" classname="Scenario: Verify View offer response when tier selected Gold and Silver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status" classname="Scenario: Verify View offer response when tier selected Gold and Silver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer" classname="Scenario: Verify View offer response when tier selected Gold and Silver" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I Create Offer" classname="Scenario: Verify View offer response when tier selected TopOfTheList" time="0"/>
+  <testcase name="Then I Verify Offer Response" classname="Scenario: Verify View offer response when tier selected TopOfTheList" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-11T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-11T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-31T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-12-31T[23]:59:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-11T[12]:00:00.000"> but was:<"2017-12-11T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-31T[11]:59:00.000"> but was:<"2017-12-31T[23]:59:00.000">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:53,251|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: Verify View offer response when tier selected TopOfTheList" classname="Scenario: Verify View offer response when tier selected TopOfTheList" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-11T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-11T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-31T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-12-31T[23]:59:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-11T[12]:00:00.000"> but was:<"2017-12-11T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-31T[11]:59:00.000"> but was:<"2017-12-31T[23]:59:00.000">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer" classname="Scenario: Verify View offer response when tier selected TopOfTheList" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status" classname="Scenario: Verify View offer response when tier selected TopOfTheList" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status" classname="Scenario: Verify View offer response when tier selected TopOfTheList" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer" classname="Scenario: Verify View offer response when tier selected TopOfTheList" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I Create Offer" classname="Scenario: Verify View offer response when tier selected BCCLoyalist" time="0"/>
+  <testcase name="Then I Verify Offer Response" classname="Scenario: Verify View offer response when tier selected BCCLoyalist" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-11T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-11T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-31T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-12-31T[23]:59:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-11T[12]:00:00.000"> but was:<"2017-12-11T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-31T[11]:59:00.000"> but was:<"2017-12-31T[23]:59:00.000">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:54,263|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: Verify View offer response when tier selected BCCLoyalist" classname="Scenario: Verify View offer response when tier selected BCCLoyalist" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-11T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-11T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-31T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-12-31T[23]:59:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-11T[12]:00:00.000"> but was:<"2017-12-11T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-31T[11]:59:00.000"> but was:<"2017-12-31T[23]:59:00.000">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer" classname="Scenario: Verify View offer response when tier selected BCCLoyalist" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status" classname="Scenario: Verify View offer response when tier selected BCCLoyalist" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status" classname="Scenario: Verify View offer response when tier selected BCCLoyalist" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer" classname="Scenario: Verify View offer response when tier selected BCCLoyalist" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given I Create Offer" classname="Scenario: Verify View offer response when tier selected ThirdPartyLoyalist" time="0"/>
+  <testcase name="Then I Verify Offer Response" classname="Scenario: Verify View offer response when tier selected ThirdPartyLoyalist" time="0">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-11T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-11T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-31T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-12-31T[23]:59:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-11T[12]:00:00.000"> but was:<"2017-12-11T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-31T[11]:59:00.000"> but was:<"2017-12-31T[23]:59:00.000">
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-02 18:54:55,066|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.offetool.StepDefinition|Start of method :: createOffer
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: Verify View offer response when tier selected ThirdPartyLoyalist" classname="Scenario: Verify View offer response when tier selected ThirdPartyLoyalist" time="0.001">
+    <failure message="&#10;The following 2 assertions failed:&#10;1) [The EffectiveDate value is: ] expected:&lt;&quot;2017-12-11T[12]:00:00.000&quot;&gt; but was:&lt;&quot;2017-12-11T[00]:00:00.000&quot;&gt;&#10;2) [The ExpirationDate value is: ] expected:&lt;&quot;2017-12-31T[11]:59:00.000&quot;&gt; but was:&lt;&quot;2017-12-31T[23]:59:00.000&quot;&gt;&#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following 2 assertions failed:
+1) [The EffectiveDate value is: ] expected:<"2017-12-11T[12]:00:00.000"> but was:<"2017-12-11T[00]:00:00.000">
+2) [The ExpirationDate value is: ] expected:<"2017-12-31T[11]:59:00.000"> but was:<"2017-12-31T[23]:59:00.000">
+
+]]></failure>
+  </testcase>
+  <testcase name="And I Retrieve offer" classname="Scenario: Verify View offer response when tier selected ThirdPartyLoyalist" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status" classname="Scenario: Verify View offer response when tier selected ThirdPartyLoyalist" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I update offer status" classname="Scenario: Verify View offer response when tier selected ThirdPartyLoyalist" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I Delete offer" classname="Scenario: Verify View offer response when tier selected ThirdPartyLoyalist" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given DataBase connection check Test" classname="Scenario: DataBase connection check" time="0"/>
+  <testcase name="Scenario: DataBase connection check" classname="Scenario: DataBase connection check" time="0"/>
+  <testcase name="Given Tibco connection check Test" classname="Scenario: Tibco connection check" time="0"/>
+  <testcase name="Scenario: Tibco connection check" classname="Scenario: Tibco connection check" time="0"/>
+</testsuite>

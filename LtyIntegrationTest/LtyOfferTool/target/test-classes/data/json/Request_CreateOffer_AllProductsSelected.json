@@ -1,0 +1,82 @@
+{  
+   "rewardOffer":{  
+      "offerHeader":{  
+         "division":77,
+         "programCode":"LTYMCY001",
+         "desc":"spend $50,Earn 10 points",
+         "channelEligible":"All",
+         "effectiveDate":"2017-11-13T12:00:00.000",
+         "expirationDate":"2017-11-30T11:59:00.000",
+         "offerStatus":"DRAFT",
+         "campaignId":"LTYMCY001",
+         "campaignDescription":"spend $50,Earn 10 points",
+         "createdBy":"WBT_User"
+      },
+      "offerReward":{  
+         "eventType":"GENERIC",
+         "offerType":"3",
+         "offerFrequency":1,
+         "tierName":["Gold"],
+         "tenderType":[  
+            "MCC"
+         ],
+         "priceStatus":[  
+            "Active at Reg price",
+            "First markdown",
+            "Second markdown",
+            "Third markdown",
+            "Final Liguidation",
+            "Salvage",
+            "Job out",
+            "Permanent markdown"
+         ],
+         "psc":"NA",
+         "offerRank":"3",
+         "employeeExclusion":0,
+         "isIncremental":false,
+         "isPowerPoint":false,
+         "fixedOfferCombinable":0
+      },
+      "stores":{  
+         "store":[  
+
+         ]
+      },
+      "productGroup":{  
+         "recordGroup":"1",
+         "groupItemCount":1,
+         "product":[  
+            {  
+               "gmmID":8
+            },
+            {  
+               "gmmID":4
+            },
+            {  
+               "gmmID":5
+            },
+            {  
+               "gmmID":3
+            },
+            {  
+               "gmmID":2
+            },
+            {  
+               "gmmID":6
+            },
+            {  
+               "gmmID":1
+            }
+         ]
+      },
+      "isDeferredPoint":0,
+      "offerRewardDetail":{  
+         "txnSpendMin":"",
+         "txnSpendMax":"",
+         "deptSpendMin":50,
+         "deptSpendMax":"",
+         "multiplier":1,
+         "points":""
+      }
+   }
+}

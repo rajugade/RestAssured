@@ -1,0 +1,41 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ent="http://www.macys.com/enterprise_services" xmlns:v11="http://loyalty.macys.com/schemas/loyalty.customer/CusRequest/v11_0" xmlns:v111="http://loyalty.macys.com/schemas/loyalty.customer/CusCommon/v11_0" xmlns:v112="http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0">
+   <soapenv:Header>
+      <ent:requestor_info>
+         <client_id>MCOM</client_id>
+         <subclient_id>Site</subclient_id>
+      </ent:requestor_info>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v11:CusInfoMaintReq>
+         <v11:UpdateName>true</v11:UpdateName>
+         <v11:UpdateEmail>true</v11:UpdateEmail>
+         <v11:UpdateAddress>true</v11:UpdateAddress>
+         <v11:UpdateDOB>true</v11:UpdateDOB>
+         <v11:UpdatePhone>true</v11:UpdatePhone>
+         <v111:NameDetails>            
+            <v111:NameFirst>Rajeswari</v111:NameFirst>
+            <v111:NameLast>Last</v111:NameLast>
+         </v111:NameDetails>
+         <v111:AddressDetails>
+            <v111:AddressLine1>500 S.Karaemer Boulevard</v111:AddressLine1>
+            <v111:City>WGL</v111:City>
+            <v111:StateCd>CA</v111:StateCd>
+            <v111:PostalCd>50634</v111:PostalCd>
+         </v111:AddressDetails>
+         <v111:Hygiene>false</v111:Hygiene>
+         <v111:DOBDetails>
+            <v111:Month>09</v111:Month>
+            <v111:Day>16</v111:Day>
+         </v111:DOBDetails>
+         <v111:Email>test1@tests.com</v111:Email>
+         <v111:Phone>209-PhoneNum</v111:Phone>
+         <v111:CustomerIdentifier>
+            <v111:AccountType>L</v111:AccountType>
+            <v111:AccountNumber EncryptionFlag="?" EncryptionKeyVersion="11">DynamicAccountNumber</v111:AccountNumber>
+         </v111:CustomerIdentifier>
+         <v112:AssociateId>12345</v112:AssociateId>
+         <v112:Channel>MCOM</v112:Channel>
+         <v112:Division>71</v112:Division>
+      </v11:CusInfoMaintReq>
+   </soapenv:Body>
+</soapenv:Envelope>

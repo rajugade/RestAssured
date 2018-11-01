@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.macys.marketing.loyalty.LtyIntegrationTest.runner.TestRunnerTest" time="84.642" tests="43" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="F:\Restassured\loyalty-integration-test\LtyIntegrationTest\LtyCustomerLookUp"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="F:\Restassured\loyalty-integration-test\LtyIntegrationTest\LtyCustomerLookUp"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\moirfan\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\maven\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\maven\apache-maven-3.3.9\bin;E:\QA\Python27;C:\Program Files\nodejs\;C:\Program Files (x86)\Skype\Phone\;C:\Users\moirfan\AppData\Roaming\npm;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\moirfan"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="moirfan"/>
+    <property name="java.class.path" value="C:\maven\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\maven\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given I Enroll Customer with IRN" classname="Scenario: Enroll Customer with IRN" time="0.001"/>
+  <testcase name="Given I Enroll Customer with IRN" classname="Scenario: Enroll Customer with IRN" time="0"/>
+  <testcase name="Given I Enroll Customer with IRN" classname="Scenario: Enroll Customer with IRN" time="0"/>
+  <testcase name="Given I Enroll Customer with IRN" classname="Scenario: Enroll Customer with IRN" time="0"/>
+  <testcase name="And I try to enroll Customer with enrolled phone number" classname="Scenario: Enroll Customer with IRN" time="0"/>
+  <testcase name="And I try to enroll Customer invalid name" classname="Scenario: Enroll Customer with IRN" time="0"/>
+  <testcase name="Scenario: Enroll Customer with IRN" classname="Scenario: Enroll Customer with IRN" time="0"/>
+  <testcase name="Scenario: Enroll Customer with IRN" classname="Scenario: Enroll Customer with IRN" time="0"/>
+  <testcase name="Scenario: Enroll Customer with IRN" classname="Scenario: Enroll Customer with IRN" time="0.008">
+    <failure message="&#10;The following assertion failed:&#10;1) [The Fault code is: ] &#10;Expecting:&#10; &lt;&quot;&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;SOAP-ENV:Envelope xmlns:SOAP-ENV=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;SOAP-ENV:Body&gt;&lt;SOAP-ENV:Fault&gt;&lt;faultcode&gt;SOAP-ENV:Server&lt;/faultcode&gt;&lt;faultstring&gt;This is an operation implementation generated fault&lt;/faultstring&gt;&lt;faultactor/&gt;&lt;detail&gt;&lt;ns:CusFault xmlns:ns0=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:ns=&quot;http://loyalty.macys.com/schemas/loyalty.customer/CusResponse/v11_0&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;ns1:ErrorCode xmlns:ns1=&quot;http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0&quot;&gt;1006&lt;/ns1:ErrorCode&gt;&lt;ns1:ErrorMsg xmlns:ns1=&quot;http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0&quot;&gt;System Unavailable&lt;/ns1:ErrorMsg&gt;&lt;/ns:CusFault&gt;&lt;/detail&gt;&lt;/SOAP-ENV:Fault&gt;&lt;/SOAP-ENV:Body&gt;&lt;/SOAP-ENV:Envelope&gt;&quot;&gt;&#10;to contain:&#10; &lt;&quot;INVALID LOYALTY ID&quot;&gt; &#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) [The Fault code is: ] 
+Expecting:
+ <"<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Body><SOAP-ENV:Fault><faultcode>SOAP-ENV:Server</faultcode><faultstring>This is an operation implementation generated fault</faultstring><faultactor/><detail><ns:CusFault xmlns:ns0="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://loyalty.macys.com/schemas/loyalty.customer/CusResponse/v11_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"><ns1:ErrorCode xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0">1006</ns1:ErrorCode><ns1:ErrorMsg xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0">System Unavailable</ns1:ErrorMsg></ns:CusFault></detail></SOAP-ENV:Fault></SOAP-ENV:Body></SOAP-ENV:Envelope>">
+to contain:
+ <"INVALID LOYALTY ID"> 
+
+]]></failure>
+  </testcase>
+  <testcase name="Scenario: Enroll Customer with IRN" classname="Scenario: Enroll Customer with IRN" time="0"/>
+  <testcase name="And I try to enroll Customer with enrolled account number" classname="Scenario: Enroll Customer with IRN" time="0"/>
+  <testcase name="And I try to enroll Customer invalid zipcode" classname="Scenario: Enroll Customer with IRN" time="0"/>
+  <testcase name="Given I Enroll Customer with PROP" classname="Scenario: Enroll Customer with PROP" time="0"/>
+  <testcase name="Given I Enroll Customer with PROP" classname="Scenario: Enroll Customer with PROP" time="0"/>
+  <testcase name="Given I Enroll Customer with PROP" classname="Scenario: Enroll Customer with PROP" time="0"/>
+  <testcase name="And I try to enroll Customer with enrolled phone number" classname="Scenario: Enroll Customer with PROP" time="0"/>
+  <testcase name="And I try to enroll Customer invalid name" classname="Scenario: Enroll Customer with PROP" time="0"/>
+  <testcase name="Scenario: Enroll Customer with PROP" classname="Scenario: Enroll Customer with PROP" time="0"/>
+  <testcase name="Scenario: Enroll Customer with PROP" classname="Scenario: Enroll Customer with PROP" time="0"/>
+  <testcase name="Scenario: Enroll Customer with PROP" classname="Scenario: Enroll Customer with PROP" time="0"/>
+  <testcase name="And I try to enroll Customer with enrolled account number" classname="Scenario: Enroll Customer with PROP" time="0"/>
+  <testcase name="And I try to enroll Customer invalid zipcode" classname="Scenario: Enroll Customer with PROP" time="0"/>
+  <testcase name="Then I do CusInfoMaint" classname="Scenario: Enroll Customer with IRN" time="0"/>
+  <testcase name="Then I do CusInfoMaint" classname="Scenario: Enroll Customer with IRN" time="0"/>
+  <testcase name="And I do CusAcctMaint" classname="Scenario: Enroll Customer with IRN" time="0"/>
+  <testcase name="And I do CusAcctMaint" classname="Scenario: Enroll Customer with IRN" time="0"/>
+  <testcase name="And I do CusNotesMaint" classname="Scenario: Enroll Customer with IRN" time="0"/>
+  <testcase name="And I do CusNotesMaint" classname="Scenario: Enroll Customer with IRN" time="0"/>
+  <testcase name="And I CusLookUp by Phone" classname="Scenario: Enroll Customer with IRN" time="0"/>
+  <testcase name="And I CusLookUp by Phone" classname="Scenario: Enroll Customer with IRN" time="0"/>
+  <testcase name="And I CusLookUp by ZipCode" classname="Scenario: Enroll Customer with IRN" time="0"/>
+  <testcase name="And I CusLookUp by ZipCode" classname="Scenario: Enroll Customer with IRN" time="0"/>
+  <testcase name="And I CusLookUp by Name" classname="Scenario: Enroll Customer with IRN" time="0"/>
+  <testcase name="And I CusLookUp by Name" classname="Scenario: Enroll Customer with IRN" time="0"/>
+  <testcase name="And I CusLookUp by Account Number" classname="Scenario: Enroll Customer with IRN" time="0.008">
+    <failure message="&#10;The following assertion failed:&#10;1) [The Fault code is: ] &#10;Expecting:&#10; &lt;&quot;&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;SOAP-ENV:Envelope xmlns:SOAP-ENV=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;&lt;SOAP-ENV:Body&gt;&lt;SOAP-ENV:Fault&gt;&lt;faultcode&gt;SOAP-ENV:Server&lt;/faultcode&gt;&lt;faultstring&gt;This is an operation implementation generated fault&lt;/faultstring&gt;&lt;faultactor/&gt;&lt;detail&gt;&lt;ns:CusFault xmlns:ns0=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot; xmlns:ns=&quot;http://loyalty.macys.com/schemas/loyalty.customer/CusResponse/v11_0&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;&lt;ns1:ErrorCode xmlns:ns1=&quot;http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0&quot;&gt;1006&lt;/ns1:ErrorCode&gt;&lt;ns1:ErrorMsg xmlns:ns1=&quot;http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0&quot;&gt;System Unavailable&lt;/ns1:ErrorMsg&gt;&lt;/ns:CusFault&gt;&lt;/detail&gt;&lt;/SOAP-ENV:Fault&gt;&lt;/SOAP-ENV:Body&gt;&lt;/SOAP-ENV:Envelope&gt;&quot;&gt;&#10;to contain:&#10; &lt;&quot;INVALID LOYALTY ID&quot;&gt; &#10;" type="org.assertj.core.api.SoftAssertionError"><![CDATA[org.assertj.core.api.SoftAssertionError: 
+
+The following assertion failed:
+1) [The Fault code is: ] 
+Expecting:
+ <"<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Body><SOAP-ENV:Fault><faultcode>SOAP-ENV:Server</faultcode><faultstring>This is an operation implementation generated fault</faultstring><faultactor/><detail><ns:CusFault xmlns:ns0="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://loyalty.macys.com/schemas/loyalty.customer/CusResponse/v11_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema"><ns1:ErrorCode xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0">1006</ns1:ErrorCode><ns1:ErrorMsg xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0">System Unavailable</ns1:ErrorMsg></ns:CusFault></detail></SOAP-ENV:Fault></SOAP-ENV:Body></SOAP-ENV:Envelope>">
+to contain:
+ <"INVALID LOYALTY ID"> 
+
+]]></failure>
+    <system-out><![CDATA[TR=2018-01-21 12:37:37,950|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.ltyLookUp.CustomerEnrollSteps|Start of method :: i_LookUp_Customer
+TR=2018-01-21 12:37:37,952|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.steps.ltyLookUp.CustomerEnrollSteps|account number L920002897614, wrong account number _920002897614
+TR=2018-01-21 12:37:37,952|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.wrapper.LtyCustomerWapperV11|Start of method :: lookupOfferInfo
+TR=2018-01-21 12:37:37,965|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|*********invokeService is starting*********
+TR=2018-01-21 12:37:37,965|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|Final uri:::::: 
+TR=2018-01-21 12:37:37,965|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|**********Request file name********** Request_cusLookup_Scenario.xml
+TR=2018-01-21 12:37:37,965|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|*********getRequestBody starting**************
+TR=2018-01-21 12:37:37,966|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|*********getRequestBody ending**************
+TR=2018-01-21 12:37:37,966|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|**********updateDynamicRequestBody starting**********
+TR=2018-01-21 12:37:37,966|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|*********getRequestBody starting**************
+TR=2018-01-21 12:37:37,967|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|*********getRequestBody ending**************
+TR=2018-01-21 12:37:37,967|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|**********Final Final API:::********** https://ltyservicestest:10684/Loyalty/Services/Customer/LTY_Customer_v11
+TR=2018-01-21 12:37:37,969|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|invokeActualRestMethod requestMethod:: POST
+Request method:	POST
+Request URI:	https://ltyservicestest:10684/Loyalty/Services/Customer/LTY_Customer_v11
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		SOAPAction=/CusLookupByAcctNbr
+				accept=text/xml
+				Content-Type=text/xml; charset=ISO-8859-1
+Cookies:		<none>
+Body:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ent="http://www.macys.com/enterprise_services" xmlns:v11="http://loyalty.macys.com/schemas/loyalty.customer/CusRequest/v11_0" xmlns:v111="http://loyalty.macys.com/schemas/loyalty.transaction/LtyCommon/v11_0" xmlns:v112="http://loyalty.macys.com/schemas/loyalty.customer/CusCommon/v11_0" xmlns:v113="http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0">
+  <soapenv:Header>
+    <ent:requestor_info>
+      <version>12</version>
+      <client_id>Stores</client_id>
+      <subclient_id>SPOS</subclient_id>
+    </ent:requestor_info>
+  </soapenv:Header>
+  <soapenv:Body>
+    <v11:CusLookupByAccountNumberReq>
+      <v112:CustomerIdentifier>
+        <v112:AccountType>L</v112:AccountType>
+        <v112:AccountNumber>_920002897614</v112:AccountNumber>
+      </v112:CustomerIdentifier>
+      <v113:Channel>SPOS</v113:Channel>
+      <v113:Division>71</v113:Division>
+      <v113:Store>1</v113:Store>
+      <v113:AssociateId>12345</v113:AssociateId>
+    </v11:CusLookupByAccountNumberReq>
+  </soapenv:Body>
+</soapenv:Envelope>
+HTTP/1.1 500 Internal Server Error
+X-Backside-Transport: FAIL FAIL
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Server: Apache-Coyote/1.1
+Content-Type: text/xml
+Date: Sun, 21 Jan 2018 07:07:39 GMT
+X-Client-IP: 11.16.10.113
+X-Global-Transaction-ID: 1217383567
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Body>
+    <SOAP-ENV:Fault>
+      <faultcode>SOAP-ENV:Server</faultcode>
+      <faultstring>This is an operation implementation generated fault</faultstring>
+      <faultactor/>
+      <detail>
+        <ns:CusFault xmlns:ns0="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://loyalty.macys.com/schemas/loyalty.customer/CusResponse/v11_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+          <ns1:ErrorCode xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0">1006</ns1:ErrorCode>
+          <ns1:ErrorMsg xmlns:ns1="http://loyalty.macys.com/schemas/loyalty.customer/MacysCommon/v11_0">System Unavailable</ns1:ErrorMsg>
+        </ns:CusFault>
+      </detail>
+    </SOAP-ENV:Fault>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+TR=2018-01-21 12:37:39,902|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|*********invokeActualRestMethod is ending*********
+TR=2018-01-21 12:37:39,902|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.Client.impl.RestAssuredClientImpl|*********invokeService is ending*********
+TR=2018-01-21 12:37:39,902|INFO|com.macys.marketing.loyalty.LtyIntegrationTest.wrapper.LtyCustomerWapperV11|End of method :: lookupOfferInfo
+]]></system-out>
+  </testcase>
+  <testcase name="And I CusLookUp by Account Number" classname="Scenario: Enroll Customer with IRN" time="0"/>
+  <testcase name="Then I do CusInfoMaint" classname="Scenario: Enroll Customer with PROP" time="0"/>
+  <testcase name="And I CusLookUp by Phone" classname="Scenario: Enroll Customer with PROP" time="0"/>
+  <testcase name="And I CusLookUp by Account Number" classname="Scenario: Enroll Customer with PROP" time="0"/>
+  <testcase name="And I CusLookUp by ZipCode" classname="Scenario: Enroll Customer with PROP" time="0"/>
+  <testcase name="And I CusLookUp by Name" classname="Scenario: Enroll Customer with PROP" time="0"/>
+  <testcase name="And I do CusNotesMaint" classname="Scenario: Enroll Customer with PROP" time="0"/>
+  <testcase name="And I do CusAcctMaint" classname="Scenario: Enroll Customer with PROP" time="0"/>
+</testsuite>

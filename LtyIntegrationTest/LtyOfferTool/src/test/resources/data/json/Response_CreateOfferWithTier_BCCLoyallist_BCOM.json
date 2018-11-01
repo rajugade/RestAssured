@@ -1,0 +1,67 @@
+{  
+   "rewardOffer":{  
+      "offerHeader":{  
+         "offerCode":"BLM10013821",
+         "division":"72",
+         "programCode":"LTYMCY001",
+         "desc":"spend $100,Earn 20 points",
+         "channelEligible":"In store",
+         "effectiveDate":"2017-12-11T00:00:00.000",
+         "expirationDate":"2017-12-31T23:59:00.000",
+         "offerStatus":"DRAFT",
+         "createdBy":"WBT_User",
+         "campaignId":"LTYMCY001",
+         "campaignDescription":"spend $100,Earn 20 points"
+      },
+      "offerReward":{  
+         "eventType":"PICK YOUR DAY",
+         "eventName":"Test123",
+         "offerType":"2",
+         "validInDays":0,
+         "offerFrequency":3,
+         "tierName":[  
+            "BCC Loyallist"
+         ],
+         "tenderType":[  
+            "MCC"
+         ],
+         "priceStatus":[  
+            "Third markdown"
+         ],
+         "offerRank":2,
+         "employeeExclusion":true,
+         "fixedOfferCombinable":false,
+         "isIncremental":false,
+         "isPowerPoint":false,
+         "psc":"NA",
+         "isPickaday":true
+      },
+      "stores":{  
+         "store":[  
+            {  
+               "region":"00001"
+            },
+            {  
+               "region":"00002"
+            }
+         ]
+      },
+      "productGroup":{  
+         "recordGroup":0,
+         "groupItemCount":0,
+         "product":[  
+
+         ]
+      },
+      "offerRewardDetail":{  
+         "multiplier":19.0,
+         "txnSpendMin":10.0
+      },
+      "notes":{  
+         "note":[  
+
+         ]
+      },
+      "deferredPoint":false
+   }
+}

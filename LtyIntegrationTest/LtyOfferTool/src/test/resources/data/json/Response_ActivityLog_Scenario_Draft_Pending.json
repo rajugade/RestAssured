@@ -1,0 +1,16 @@
+[
+    {
+        "action": "Offer Created",
+        "previousStatus": "N/A",
+        "currentStatus": "DRAFT",
+        "userName": "TEST_USER",
+        "lastUpdateTs": "29 Jan 2018 03:51 PM"
+    },
+    {
+        "action": "Offer Submitted for Approval",
+        "previousStatus": "DRAFT",
+        "currentStatus": "PENDING",
+        "userName": "TEST_USER",
+        "lastUpdateTs": "29 Jan 2018 03:51 PM"
+    }
+]

@@ -1,0 +1,61 @@
+{  
+   "rewardOffer":{  
+      "offerHeader":{  
+         "division":71,
+         "programCode":"LTYMCY001",
+         "desc":"spend $100,Earn 20 points",
+         "channelEligible":"All",
+         "effectiveDate":"2017-11-23T00:00:00.000",
+         "expirationDate":"2017-11-30T23:59:00.000",
+         "offerStatus":"DRAFT",
+         "campaignId":"LTYMCY001",
+         "campaignDescription":"spend $100,Earn 20 points",
+         "createdBy":"WBT_User"
+      },
+      "offerReward":{  
+         "eventType":"GENERIC",
+         "offerType":"7",
+         "offerFrequency":1,
+         "tierName":["Gold"],
+         "tenderType":[  
+            "MCC"
+         ],
+         "priceStatus":[  
+            "Active at Reg price",
+            "Second markdown",
+            "Third markdown",
+            "Final Liquidation",
+            "Salvage",
+            "Job out",
+            "Permanent markdown"
+         ],
+         "psc":"NA",
+         "offerRank":"2",
+         "employeeExclusion":1,
+         "fixedOfferCombinable":1,
+         "isIncremental":true,
+         "incrementalAmount":50
+      },
+      "stores":{  
+         "store":[  
+
+         ]
+      },
+      "productGroup":{  
+         "recordGroup":"1",
+         "groupItemCount":1,
+         "product":[  
+
+         ]
+      },
+      "deferredPoint":0,
+      "offerRewardDetail":{  
+         "txnSpendMin":100,
+         "txnSpendMax":"",
+         "deptSpendMin":"",
+         "deptSpendMax":"",
+         "multiplier":"",
+         "points":20
+      }
+   }
+}

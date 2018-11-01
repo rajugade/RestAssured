@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.macys.marketing.loyalty.LtyIntegrationTest.runner.TestRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 8.741 sec <<< FAILURE! - in com.macys.marketing.loyalty.LtyIntegrationTest.runner.TestRunnerTest
+Given I Create Offer for LookUp(Scenario: Verify lookUp Offer)  Time elapsed: 0.022 sec  <<< ERROR!
+java.lang.NullPointerException
+
+Scenario: Verify lookUp Offer  Time elapsed: 0.039 sec  <<< ERROR!
+java.lang.NullPointerException
+
